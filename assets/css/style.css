@@ -104,10 +104,10 @@ body {
     display: flex;
     align-content: center;
     align-items: center;
-    font-size: 2vh;
+    font-size: 4vh;
 }
 
-/* Alphabet Styling */
+/* Alphabet Page Styling */
 
 /* Card Styling */
 .alphabet_holder {
@@ -130,3 +130,14 @@ body {
     cursor: pointer;
     position: relative;
 }
+
+.alphabet_main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: var(--br);
+}
+
