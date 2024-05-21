@@ -179,6 +179,7 @@ img {
     text-align: center;
 }
 
+/* Styling the Word's Audio*/
 .voice__name {
     padding-right: 1vw;
     font-weight: bold;
@@ -188,4 +189,12 @@ img {
     width: 3vw;
     height: 3vh;
     position: relative;
+}
+
+.voice__icon {
+    font-size: 3vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
