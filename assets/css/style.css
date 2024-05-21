@@ -1,8 +1,17 @@
 /*------ Global Settings------*/
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
 
+/* Body Styling */
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
     color: black;
     text-align: center;
+    height: 100vh;
 }
