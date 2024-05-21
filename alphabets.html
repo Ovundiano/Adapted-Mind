@@ -26,11 +26,44 @@
             <a href="index.html" aria-label="go back to the main page" class="btn__navigation--back"><i
                     class="fas fa-arrow-circle-left"></i></a>
         </div>
-        
+
     </header>
 
-        <!--Link to the js file-->
-        <script src="assets/js/script.js"></script>
+    <main class="alphabet_holder">
+
+        <div class="alphabet">
+
+            <section class="alphabet_main">
+                <h2 class="topic">topic</h2>
+                <div class="image"></div>
+                <div class="card__content">
+                    <!--Word-->
+                    <div class="english__word"></div>
+                </div>
+                <!--Word's Audio-->
+                <div class="voice__options" id="voice__options">
+                    <div class="voice__option" id="voice__option--US">
+                        <p class="voice__name">US</p>
+                        <div class="voice__btn"><i class="fas fa-volume-up voice__icon" id="voice__icon--US"></i></div>
+                    </div>
+                    <div class="voice__option" id="voice__option--GB">
+                        <p class="voice__name">GB</p>
+                        <div class="voice__btn"><i class="fas fa-volume-up voice__icon " id="voice__icon--BG"></i></div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!--Button Next Alphabet-->
+    <div class="button__holder">
+        <button class="alphabet__next" id="alphabet__next">next alphabet</button>
+    </div>
+
+    <!--Link to the js file-->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
