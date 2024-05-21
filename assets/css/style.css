@@ -179,4 +179,13 @@ img {
     text-align: center;
 }
 
+.voice__name {
+    padding-right: 1vw;
+    font-weight: bold;
+}
 
+.voice__btn {
+    width: 3vw;
+    height: 3vh;
+    position: relative;
+}
