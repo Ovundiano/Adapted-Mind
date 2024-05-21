@@ -33,3 +33,12 @@ body {
     padding-top: 2vh;
     color: black;
 }
+
+.menu_main {
+    justify-self: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
