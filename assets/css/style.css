@@ -53,21 +53,20 @@ body {
     justify-content: space-around;
     background-color: navy;
     height: 80%;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .menu__link {
     width: 50rem;
     max-width: 90%;
     background-color: white;
-    padding: 6vh;
-    font-size: 5vh;
+    padding: 3vh;
+    font-size: 4vh;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     color: black;
     text-decoration: none;
-    border-radius: var(--br);
     display: inline-block;
     cursor: pointer;
 }
