@@ -180,9 +180,25 @@ img {
 }
 
 /* Styling the Word's Audio*/
+.voice__options {
+    display: flex;
+    padding: 1rem;
+    font-size: 3vh;
+    justify-content: space-evenly;
+}
+
+.voice__option {
+    display: flex;
+    margin: auto 2rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .voice__name {
     padding-right: 1vw;
     font-weight: bold;
+    padding-left: 1vw;
 }
 
 .voice__btn {
@@ -197,4 +213,6 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-left: 3vh;
 }
+
