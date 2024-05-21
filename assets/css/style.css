@@ -161,3 +161,22 @@ body {
     width: 27vw;
 }
 
+img {
+    display: block;
+    height: 40vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Styling the Word*/
+.english__word {
+    margin-top: 2rem;
+    margin-bottom: 7vh;
+    padding: 1rem;
+    font-size: 4vh;
+    letter-spacing: 0.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
