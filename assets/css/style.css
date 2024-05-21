@@ -141,3 +141,23 @@ body {
     border-radius: var(--br);
 }
 
+.letter {
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    color: var(--clr-neutral-900);
+    text-transform: uppercase;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.image {
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 27vw;
+}
+
