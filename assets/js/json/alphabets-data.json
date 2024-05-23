@@ -10,16 +10,13 @@
         "image": "assets/images/banana.png",
         "imageAlt": "two fingers of yellow bananas",
         "word": "Banana"
+    },
 
-    }
-]
-
-[{
+    {
         "topic": "Cc",
         "image": "assets/images/cat.png",
         "imageAlt": "cat on a green background",
         "word": "Cat"
-
     },
 
     {
@@ -27,19 +24,16 @@
         "image": "assets/images/dog.png",
         "imageAlt": "dog on a brown background",
         "word": "Dog"
-
     },
-]
 
-{
-    "topic": "Ee",
-    "image": "assets/images/egg.jpg",
-    "imageAlt": "egg on a white background",
-    "word": "Egg"
+    {
+        "topic": "Ee",
+        "image": "assets/images/egg.jpg",
+        "imageAlt": "egg on a white background",
+        "word": "Egg"
+    },
 
-}
-
-[{
+    {
         "topic": "Ff",
         "image": "assets/images/fish.jpg",
         "imageAlt": "fish on a white background",
@@ -51,11 +45,9 @@
         "image": "assets/images/guava.webp",
         "imageAlt": "guava on a white background",
         "word": "Guava"
-
     },
-]
 
-[{
+    {
         "topic": "Hh",
         "image": "assets/images/house.webp",
         "imageAlt": "house on a white background",
@@ -67,11 +59,9 @@
         "image": "assets/images/ice-cream.webp",
         "imageAlt": "ice-cream on a white background",
         "word": "Ice-cream"
+    },
 
-    }
-]
-
-[{
+    {
         "topic": "Jj",
         "image": "assets/images/jug.png",
         "imageAlt": "jug on a white background",
@@ -83,11 +73,9 @@
         "image": "assets/images/kettle.png",
         "imageAlt": "kettle on a white background",
         "word": "Kettle"
-
     },
-]
 
-[{
+    {
         "topic": "Ll",
         "image": "assets/images/lemon.jpg",
         "imageAlt": "lemon on a white background",
@@ -99,11 +87,9 @@
         "image": "assets/images/mango.jpg",
         "imageAlt": "mango on a white background",
         "word": "Mango"
+    },
 
-    }
-]
-
-[{
+    {
         "topic": "Nn",
         "image": "assets/images/nest.png",
         "imageAlt": "nest on a white background",
@@ -115,11 +101,9 @@
         "image": "assets/images/orange.png",
         "imageAlt": "orange on a white background",
         "word": "Orange"
-
     },
-]
 
-[{
+    {
         "topic": "Pp",
         "image": "assets/images/parrot.png",
         "imageAlt": "parrot on a white background",
@@ -131,11 +115,9 @@
         "image": "assets/images/queen.jpeg",
         "imageAlt": "queen on a black background",
         "word": "Queen"
-
     },
-]
 
-[{
+    {
         "topic": "Rr",
         "image": "assets/images/rat.webp",
         "imageAlt": "rat on a white background",
@@ -147,11 +129,9 @@
         "image": "assets/images/star.png",
         "imageAlt": "star on a white background",
         "word": "Star"
-
     },
-]
 
-[{
+    {
         "topic": "Tt",
         "image": "assets/images/table.png",
         "imageAlt": "table on a white background",
@@ -163,11 +143,9 @@
         "image": "assets/images/umbrella.png",
         "imageAlt": "umbrella on a white background",
         "word": "Umbrella"
-
     },
-]
 
-[{
+    {
         "topic": "Vv",
         "image": "assets/images/van.webp",
         "imageAlt": "van on a white background",
@@ -179,11 +157,9 @@
         "image": "assets/images/watermelon.jpg",
         "imageAlt": "watermelon on a white background",
         "word": "Watermelon"
-
     },
-]
 
-[{
+    {
         "topic": "Xx",
         "image": "assets/images/xylophone.jpg",
         "imageAlt": "xylophone on a white background",
@@ -195,13 +171,12 @@
         "image": "assets/images/yatch.webp",
         "imageAlt": "yatch on a white background",
         "word": "Yatch"
-
     },
-]
 
-[{
+    {
         "topic": "Zz",
         "image": "assets/images/zebra.jpg",
         "imageAlt": "zebra on a white background",
         "word": "Zebra"
-    },
+    }
+]
