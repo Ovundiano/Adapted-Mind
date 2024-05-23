@@ -1,6 +1,15 @@
 [{
-    "topic": "Aa",
-    "image": "assets/images/apple.png",
-    "imageAlt": "green apple on a white background",
-    "word": "Apple"
-}]
+        "topic": "Aa",
+        "image": "assets/images/apple.png",
+        "imageAlt": "green apple on a white background",
+        "word": "Apple"
+    },
+
+    {
+        "topic": "Bb",
+        "image": "assets/images/banana.png",
+        "imageAlt": "two fingers of yellow bananas",
+        "word": "Banana"
+
+    }
+]
