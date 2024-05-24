@@ -13,6 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     fetchFlashAlphabetsData()
 
-   // Change Alphabet on click
+    // Change Alphabet on click
     nextAlphabet.addEventListener('click', generateAlphabet);
+
+    // Click enter to go to another alphabet
+    document.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            generateAlphabet();
+        }
     })
+})
