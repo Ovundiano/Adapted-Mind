@@ -27,4 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     btnVoiceUs.addEventListener('click', function (event) {
         speakFunction(event, "US");
     });
+    btnVoiceGb.addEventListener('click', function (event) {
+        speakFunction(event, "GB");
+    });
 })
