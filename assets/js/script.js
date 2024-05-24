@@ -62,3 +62,5 @@ let generateAlphabet = function () {
         alphabets.push.apply(alphabets, temporaryAlphabetsArray);
     }
 }
+
+let alphabetTopic = document.getElementsByClassName('letter')[0];
