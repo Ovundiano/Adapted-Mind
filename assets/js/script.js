@@ -5,13 +5,13 @@ let btnVoiceUs = document.getElementById("voice__option--US");
 let btnVoiceGb = document.getElementById("voice__option--GB");
 let currentWord;
 let temporaryAlphabetsArray = [];
-let flashalphabets;
+let alphabets;
 let nextAlphabet = document.getElementById("alphabet__next");
 
 // Add event listeners
 document.addEventListener('DOMContentLoaded', function () {
 
-    fetchFlashAlphabetsData()
+    fetchAlphabetsData()
 
     // Change Alphabet on click
     nextAlphabet.addEventListener('click', generateAlphabet);
@@ -31,3 +31,10 @@ document.addEventListener('DOMContentLoaded', function () {
         speakFunction(event, "GB");
     });
 })
+
+//Fetch data from the JSON file
+async function fetchAlphabetsData() {
+    let res = await fetch("assets/js/json/alphabets-data.json");
+    alphabets = await res.json();
+    generateAlphabet ();
+}
