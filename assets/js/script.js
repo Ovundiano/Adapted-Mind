@@ -10,15 +10,15 @@ let nextAlphabet = document.getElementById("alphabet__next");
 // Add event listeners
 document.addEventListener('DOMContentLoaded', function () {
 
-    fetchAlphabetsData()
+    generateAlphabetsData()
 
     // Change Alphabet on click
-    nextAlphabet.addEventListener('click', generateAlphabet);
+    nextAlphabet.addEventListener('click', generateAlphabetsData());
 
     // Click enter to go to another alphabet
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Enter') {
-            generateAlphabet();
+            generateAlphabetsData();
         }
     })
 
@@ -32,10 +32,10 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 //Fetch data from the JSON file
-async function fetchAlphabetsData() {
+async function generateAlphabetsData() {
     let res = await fetch("assets/js/json/alphabets-data.json");
     alphabets = await res.json();
-    generateAlphabet();
+    generateAlphabetsData();
 }
 
 //Add voice on click
@@ -49,7 +49,7 @@ function speakFunction(event, lang) {
 
 //Generate random index for the Alphabets
 let createRandom = function () {
-  return Math.floor(Math.random() * alphabets.length);
+    return Math.floor(Math.random() * alphabets.length);
 };
 
 /**
