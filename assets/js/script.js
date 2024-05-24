@@ -65,3 +65,4 @@ let generateAlphabet = function () {
 
 let alphabetTopic = document.getElementsByClassName('letter')[0];
 let alphabetImage = document.getElementsByClassName('image')[0];
+let alphabetWord = document.getElementsByClassName('english__word')[0];
