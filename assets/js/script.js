@@ -47,3 +47,8 @@ function speakFunction(event, lang) {
     msg.text = currentWord.replace('/', 'or');
     speechSynthesis.speak(msg);
 }
+
+ // Generate random index for the FC
+let createRandom = function () {
+    return Math.floor(Math.random() * alphabets.length);
+};
