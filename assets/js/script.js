@@ -38,3 +38,12 @@ async function fetchAlphabetsData() {
     alphabets = await res.json();
     generateAlphabet ();
 }
+
+//Add voice on click
+function speakFunction(event, lang) {
+    event.stopPropagation();
+    let msg = new SpeechSynthesisUtterance();
+    msg.lang = `en-${lang}`;
+    msg.text = currentWord.replace('/', 'or');
+    speechSynthesis.speak(msg);
+}
