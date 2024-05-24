@@ -313,16 +313,12 @@ img {
 @media screen and (min-width: 992px) {
 
     /* Media for menu page */
-    body {
-        height: 100%;
-    }
-
     .menu__header {
         align-self: center;
     }
 
     .menu__title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .menu_alphabets {
@@ -333,7 +329,7 @@ img {
     .menu__link {
         width: 10rem;
         background-color: white;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .alphabet_holder {
@@ -376,10 +372,9 @@ img {
     .voice__options {
         display: flex;
         padding: 0.4rem;
-        font-size: 1.5rem;
         align-content: center;
         justify-content: space-evenly;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .voice__option {
@@ -388,10 +383,11 @@ img {
 
     .voice__name {
         padding-right: 3vw;
+        font-size: 1.5rem;
     }
 
     .voice__icon {
-        font-size: 3vh;
+        font-size: 2rem;
     }
 
     .alphabet__next {
