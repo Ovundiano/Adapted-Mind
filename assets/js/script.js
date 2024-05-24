@@ -22,4 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
             generateAlphabet();
         }
     })
+
+    //listen click for audio
+    btnVoiceUs.addEventListener('click', function (event) {
+        speakFunction(event, "US");
+    });
 })
