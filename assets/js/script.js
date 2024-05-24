@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
 async function fetchAlphabetsData() {
     let res = await fetch("assets/js/json/alphabets-data.json");
     alphabets = await res.json();
-    generateAlphabet ();
+    generateAlphabet();
 }
 
 //Add voice on click
@@ -48,7 +48,17 @@ function speakFunction(event, lang) {
     speechSynthesis.speak(msg);
 }
 
- // Generate random index for the FC
+// Generate random index for the Alphabets
 let createRandom = function () {
     return Math.floor(Math.random() * alphabets.length);
 };
+
+/**
+ * Function generates the Alphabet for the user
+ * with all visible elements
+ */
+let generateAlphabet = function () {
+    if (alphabets.length === 0) {
+        alphabets.push.apply(alphabets, temporaryAlphabetsArray);
+    }
+}
