@@ -3,22 +3,23 @@
 let alphabet = document.getElementsByClassName("alphabet");
 let btnVoiceUs = document.getElementById("voice__option--US");
 let btnVoiceGb = document.getElementById("voice__option--GB");
+let currentWord;
 let temporaryAlphabetsArray = [];
-let alphabets;
+let alphabets
 let nextAlphabet = document.getElementById("alphabet__next");
 
 // Add event listeners
 document.addEventListener('DOMContentLoaded', function () {
 
-    generateAlphabetsData()
+    fetchAlphabetsData()
 
     // Change Alphabet on click
-    nextAlphabet.addEventListener('click', generateAlphabetsData());
+    nextAlphabet.addEventListener('click', generateAlphabet);
 
     // Click enter to go to another alphabet
     document.addEventListener('keydown', function (event) {
         if (event.key === 'Enter') {
-            generateAlphabetsData();
+            generateAlphabet();
         }
     })
 
@@ -32,10 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
 })
 
 //Fetch data from the JSON file
-async function generateAlphabetsData() {
+async function fetchAlphabetsData() {
     let res = await fetch("assets/js/json/alphabets-data.json");
     alphabets = await res.json();
-    generateAlphabetsData();
+    generateAlphabet();
 }
 
 //Add voice on click
