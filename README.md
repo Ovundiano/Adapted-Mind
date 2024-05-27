@@ -34,4 +34,18 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
         1. Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
 
-![Menu Page](documentation/menu_page_screenshot.png)
+    ![Menu Page](documentation/menu_page_screenshot.png)
+
++ ### Alphabet A-Z Page
+
+    - It has a button at the top left corner of the screen, which leads back to the menu page;
+
+    - It has Card, which consist of an alphabet and what it represents;
+
+    - Card has the key word and sound buttons, which allows the user to listen to the correct American and British pronunciation of the word;
+
+    - It has a next alphabet button, which replaces the current alphabet and its representation with another alphabet and its representation. 
+
+    ![Alphabet A-Z Page](documentation/alphabet_page_screenshot.png)
+
+
