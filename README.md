@@ -28,11 +28,12 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 + ### Menu Page
 
     - Menu page has the header containing the Title of the app "ADAPTED MIND".
-    - The header also contains a paragraph "Learning made easy!"
 
-    - Menu page has 1 main button:
+    - The header also contains a paragraph "Learning made easy!".
 
-        1. Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
+    - Menu page also has 1 main button:
+
+        - Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
 
     ![Menu Page](documentation/menu_page_screenshot.png)
 
@@ -47,5 +48,16 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
     - It has a next alphabet button, which replaces the current alphabet and its representation with another alphabet and its representation. 
 
     ![Alphabet A-Z Page](documentation/alphabet_page_screenshot.png)
+
+## Technologies Used
+
+- [HTML](https://developer.chrome.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.chrome.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.chrome.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Grid](https://developer.chrome.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [JS](https://www.w3schools.com/js/) - was used to add interactivity to the site.
+- [Gitpod](https://gitpod.io/workspaces/) was used as the main tool to write and edit code.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [TinyPNG](https://tinypng.com/) was used to resize images.
 
 
