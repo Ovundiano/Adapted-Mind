@@ -22,3 +22,16 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 ### Regular User Goal:
 * As a Regular User, I want to get constant access to learning materials, so I can continue learning.
+
+## Features
+
++ ### Menu Page
+
+    - Menu page has the header containing the Title of the app "ADAPTED MIND".
+    - The header also contains a paragraph "Learning made easy!"
+
+    - Menu page has 1 main button:
+
+        1. Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
+
+![Menu Page](documentation/menu_page_screenshot.png)
