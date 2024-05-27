@@ -69,7 +69,9 @@ Navy Color was used as the background color of the menu page, next alphabet butt
 White Color was used as the background color of the alphabet page and text color of the next alphabet button.
 
 ![Strong Blue Color](documentation/strong_blue_color.png)
+
 Strong Blue color was used as the hover color of both pages.
+
 
 ![Black Color](documentation/black_color.png)
 Black Color was used as text color of both pages.
