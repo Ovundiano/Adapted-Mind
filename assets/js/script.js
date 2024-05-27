@@ -1,17 +1,17 @@
+/* jshint esversion:8 */
 // Wait for the DOM to finish loading before running the game
 
-let alphabet = document.getElementsByClassName("alphabet");
 let btnVoiceUs = document.getElementById("voice__option--US");
 let btnVoiceGb = document.getElementById("voice__option--GB");
 let currentWord;
 let temporaryAlphabetsArray = [];
-let alphabets
+let alphabets;
 let nextAlphabet = document.getElementById("alphabet__next");
 
 // Add event listeners
 document.addEventListener('DOMContentLoaded', function () {
 
-    fetchAlphabetsData()
+    fetchAlphabetsData();
 
     // Change Alphabet on click
     nextAlphabet.addEventListener('click', generateAlphabet);
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (event.key === 'Enter') {
             generateAlphabet();
         }
-    })
+    });
 
     //listen click for audio
     btnVoiceUs.addEventListener('click', function (event) {
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     btnVoiceGb.addEventListener('click', function (event) {
         speakFunction(event, "GB");
     });
-})
+});
 
 //Fetch data from the JSON file
 async function fetchAlphabetsData() {
