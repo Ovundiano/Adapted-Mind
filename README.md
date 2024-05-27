@@ -60,4 +60,19 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [TinyPNG](https://tinypng.com/) was used to resize images.
 
+## Design
+
+![Navy Color](documentation/navy_color.png)
+Navy Color was used as the background color of the menu page, next alphabet button and back arrow button.
+
+![White color](documentation/white_color.png)
+White Color was used as the background color of the alphabet page and text color of the next alphabet button.
+
+![Strong Blue Color](documentation/strong_blue_color.png)
+Strong Blue color was used as the hover color of both pages.
+
+![Black Color](documentation/black_color.png)
+Black Color was used as text color of both pages.
+
+
 
