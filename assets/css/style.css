@@ -25,19 +25,19 @@ body {
     height: 100vh;
 }
 
-/* --- << Menu page >> --- */
-.menu__header {
+/* Menu page Style */
+.header {
     justify-self: center;
     align-self: center;
 }
 
-.menu__title {
+.header-title {
     font-size: 5vh;
     text-align: center;
     text-transform: uppercase;
 }
 
-.menu__incentive {
+.header-p {
     text-align: center;
     padding-top: 2vh;
     color: black;
@@ -45,7 +45,7 @@ body {
     font-size: 3vh;
 }
 
-.menu_main {
+.main {
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -56,7 +56,7 @@ body {
     margin-top: 2%;
 }
 
-.menu__link {
+.main-alphabet {
     width: 50rem;
     max-width: 90%;
     background-color: white;
@@ -71,36 +71,31 @@ body {
     cursor: pointer;
 }
 
-.menu__link:hover {
+.main-alphabet:hover {
     background-color: #1570cd;
 }
 
-.menu__next:focus {
-    outline: 0;
-}
+/* Alphabets Page Style */
 
-/* --- << Alphabet page >> --- */
-
-/* Menu Button */
-.header {
+/* Header Button Style */
+.header-alphabet {
     grid-column: 1/4;
     grid-row: 1/2;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
 }
 
-.button__menu {
+.button {
     justify-self: left;
     align-items: center;
     margin: 1rem;
 }
 
-.button__menu a {
+.button a {
     text-decoration: none;
     outline: none;
 }
 
-.btn__navigation--back {
+.btn-navigation-back {
     background-color: navy;
     padding: 2vh 3vw;
     color: white;
@@ -110,10 +105,8 @@ body {
     font-size: 4vh;
 }
 
-/* Main Styling */
-.alphabet_holder {
-    grid-column: 1/4;
-    grid-row: 2/3;
+/* Main Style */
+.alphabet-main {
     align-items: center;
     justify-self: center;
     justify-content: center;
@@ -123,7 +116,7 @@ body {
     perspective: 60vw;
 }
 
-.alphabet {
+.alphabets {
     width: 100%;
     height: 100%;
     transition: transform 900ms;
@@ -132,7 +125,7 @@ body {
     position: relative;
 }
 
-.alphabet_main {
+.alphabets-main {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -167,8 +160,8 @@ img {
     object-fit: contain;
 }
 
-/* Styling the Word*/
-.english__word {
+/* Image In Word Style */
+.image-spelling-word {
     font-size: 4vh;
     letter-spacing: 0.4rem;
     font-weight: bold;
@@ -179,35 +172,35 @@ img {
     margin-top: 50px;
 }
 
-/* Styling the Word's Audio*/
-.voice__options {
+/* Image Pronounciation Style */
+.accent { 
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
     padding-right: 30px;
 }
 
-.voice__option {
+.accents {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
 }
 
-.voice__name {
+.accents-name {
     padding-right: 1vw;
     font-weight: bold;
     padding-left: 1vw;
     font-size: 3vh;
 }
 
-.voice__btn {
+.accents-btn {
     width: 3vw;
     height: 3vh;
     position: relative;
 }
 
-.voice__icon {
+.accents-icon {
     font-size: 3vh;
     position: absolute;
     top: 50%;
@@ -216,15 +209,15 @@ img {
     padding-left: 3vh;
 }
 
-/* Styling The Button Next Alphabet */
-.button__holder {
+/* Next Alphabet Button Style */
+.next-alphabet-holder {
     grid-column: 1/4;
     grid-row: 3/4;
     justify-self: center;
     align-self: center;
 }
 
-.alphabet__next {
+.next-alphabet {
     background-color: navy;
     padding: 2vh 2vw;
     font-size: 3vh;
@@ -239,20 +232,15 @@ img {
     cursor: pointer;
 }
 
-.alphabet__next:hover {
+.next-alphabet:hover {
     background-color: #1570cd;
-}
-
-.alphabet__next:focus {
-    outline: 0;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Menu page */
-
-    .menu__link {
+    /* Menu page Style */
+    .main-alphabet {
         width: 40rem;
         min-width: 90%;
         background-color: white;
@@ -261,17 +249,17 @@ img {
         cursor: pointer;
     }
 
-    /* Media for Alphabets */
+    /* Media for Alphabets Page Style */ 
 
-    .alphabet_holder {
-        grid-row: 2/3;
+    /* Main Style */
+    .alphabet-main {
         justify-self: center;
         align-self: end;
         height: 70vh;
         width: 100%;
         max-width: 80rem;
     }
-
+    
     .letter {
         font-size: 5vh;
         padding-left: 10px;
@@ -279,16 +267,6 @@ img {
         justify-content: center;
         display: flex;
     }
-
-    .voice__options {
-        display: flex;
-        padding-right: 50px;
-        font-size: 3vh;
-        align-content: center;
-        justify-content: space-evenly;
-        margin-top: 80px;
-    }
-
     .image {
         justify-self: center;
         align-self: center;
@@ -302,8 +280,19 @@ img {
     img {
         height: 25vh;
     }
+    
+    /* Image Pronounciation Style */
+    .accent {
+        display: flex;
+        padding-right: 50px;
+        font-size: 3vh;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 80px;
+    }
 
-    .english__word {
+    /* Image In Word Style */
+    .image-spelling-word {
         margin-top: 80px;
         padding-left: 50px;
     }
@@ -312,27 +301,28 @@ img {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-    /* Media for menu page */
-    .menu__header {
+    /* Menu Page Style */
+    .header {
         align-self: center;
     }
 
-    .menu__title {
+    .header-title {
         font-size: 3rem;
     }
 
-    .menu_alphabets {
+    .main-alphabets {
         width: 65rem;
         padding-left: 240px;
     }
 
-    .menu__link {
+    .main-alphabet {
         width: 10rem;
         background-color: white;
         font-size: 2.5rem;
     }
-
-    .alphabet_holder {
+    
+    /* Main Style */
+    .alphabet-main {
         width: 100%;
         max-width: 90rem;
         height: 70vh;
@@ -363,13 +353,15 @@ img {
         height: 25vh;
     }
 
-    .english__word {
+    /* Image In Word Style */
+    .image-spelling-word {
         font-size: 2rem;
         letter-spacing: 1rem;
         margin-top: 20px;
     }
-
-    .voice__options {
+    
+    /* Image Pronounciation Style */
+    .accent {
         display: flex;
         padding: 0.4rem;
         align-content: center;
@@ -377,20 +369,21 @@ img {
         margin-top: 40px;
     }
 
-    .voice__option {
+    .accents {
         padding: 0.5rem;
     }
 
-    .voice__name {
+    .accents-name {
         padding-right: 3vw;
         font-size: 1.5rem;
     }
 
-    .voice__icon {
+    .accents-icon {
         font-size: 2rem;
     }
-
-    .alphabet__next {
+    
+    /* Next Alphabet Button Style */
+    .next-alphabet {
         padding: 1rem;
         font-size: 1.5rem;
         margin: 1rem

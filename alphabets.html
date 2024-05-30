@@ -9,6 +9,7 @@
     <meta name="keywords"
         content="English, Alphabet A-Z, Pictural representation of each alphabets, Spelling of pictural representation.">
     <meta name="author" content="Ovunda Eche">
+    <link rel='shortcut icon' type='image/x-icon' href='assets/favicon.ico'>
     <!-- font awesome and google fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
@@ -19,36 +20,37 @@
 
 <body>
 
-    <header class="header">
+    <header class="header-alphabet">
 
-        <!--Menu Button-->
-        <div class="button__menu">
-            <a href="index.html" aria-label="go back to the main page" class="btn__navigation--back"><i
+        <!--Header Button-->
+        <div class="button">
+            <a href="index.html" aria-label="go back to the main page" class="btn-navigation-back"><i
                     class="fas fa-arrow-circle-left"></i></a>
         </div>
 
     </header>
 
-    <main class="alphabet_holder">
+    <!--Main-->
+    <main class="alphabet-main">
 
-        <div class="alphabet">
+        <div class="alphabets">
 
-            <section class="alphabet_main">
-                <h2 class="letter">topic</h2>
+            <section class="alphabets-main">
+                <h1 class="letter">Alphabet</h1>
                 <div class="image"></div>
-                <div class="alphabet__content">
-                    <!--Word-->
-                    <div class="english__word"></div>
+                <div class="image-spelling">
+                    <!--Image In Word-->
+                    <div class="image-spelling-word"></div>
                 </div>
-                <!--Word's Audio-->
-                <div class="voice__options" id="voice__options">
-                    <div class="voice__option" id="voice__option--US">
-                        <p class="voice__name">US</p>
-                        <div class="voice__btn"><i class="fas fa-volume-up voice__icon" id="voice__icon--US"></i></div>
+                <!--Image Pronounciation-->
+                <div class="accent" id="accent">
+                    <div class="accents" id="accents-US">
+                        <p class="accents-name">US</p>
+                        <div class="accents-btn"><i class="fas fa-volume-up accents-icon" id="accents-icon-US"></i></div>
                     </div>
-                    <div class="voice__option" id="voice__option--GB">
-                        <p class="voice__name">GB</p>
-                        <div class="voice__btn"><i class="fas fa-volume-up voice__icon " id="voice__icon--BG"></i></div>
+                    <div class="accents" id="accents-GB">
+                        <p class="accents-name">GB</p>
+                        <div class="accents-btn"><i class="fas fa-volume-up accents-icon " id="accents-icon-GB"></i></div>
                     </div>
                 </div>
             </section>
@@ -57,12 +59,12 @@
 
     </main>
 
-    <!--Button Next Alphabet-->
-    <div class="button__holder">
-        <button class="alphabet__next" id="alphabet__next">next alphabet</button>
+    <!-- Next Alphabet Button -->
+    <div class="next-alphabet-holder">
+        <button class="next-alphabet" id="next-alphabet">next alphabet</button>
     </div>
 
-    <!--Link to the js file-->
+    <!--Link to script.js file-->
     <script src="assets/js/script.js"></script>
 </body>
 
