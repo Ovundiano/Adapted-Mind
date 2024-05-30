@@ -52,7 +52,7 @@ body {
     align-content: center;
     justify-content: space-around;
     background-color: navy;
-    height: 80%;
+    height: 77%;
     margin-top: 2%;
 }
 
@@ -73,6 +73,28 @@ body {
 
 .main-alphabet:hover {
     background-color: #1570cd;
+}
+
+/* Footer */
+.social-contact {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    list-style-type: none;
+    background-color: white;
+}
+
+.social-contact i {
+    font-size: 4rem;
+    color: navy;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.social-contact i:hover {
+    color: #1570cd;
 }
 
 /* Alphabets Page Style */
@@ -308,6 +330,10 @@ img {
 
     .header-title {
         font-size: 3rem;
+    }
+
+    .main {
+        height: 65%;
     }
 
     .main-alphabets {
