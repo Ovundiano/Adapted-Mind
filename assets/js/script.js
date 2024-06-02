@@ -1,79 +1,91 @@
 /* jshint esversion:8 */
+
 // Wait for the DOM to finish loading before running the game
 
-let btnVoiceUs = document.getElementById("voice__option--US");
-let btnVoiceGb = document.getElementById("voice__option--GB");
-let currentWord;
-let temporaryAlphabetsArray = [];
-let alphabets;
-let nextAlphabet = document.getElementById("alphabet__next");
+// Add event listeners to button element after getting them
 
-// Add event listeners
 document.addEventListener('DOMContentLoaded', function () {
+    let nextAlphabet = document.getElementById("next-alphabet");
 
     fetchAlphabetsData();
 
-    // Change Alphabet on click
-    nextAlphabet.addEventListener('click', generateAlphabet);
+    //Click Next Alphabet Button to Get Next Alphabet
+    nextAlphabet.addEventListener('click', function() {
+        generateAlphabet()
+        console.log('Next Alphabet Button clicked!');
+    });
 
-    // Click enter to go to another alphabet
-    document.addEventListener('keydown', function (event) {
+    //Click Enter Key to Get Next Alphabet
+    nextAlphabet.addEventListener('keydown', function (event) {
         if (event.key === 'Enter') {
             generateAlphabet();
         }
+        console.log('Enter Key clicked!');
     });
 
-    //listen click for audio
-    btnVoiceUs.addEventListener('click', function (event) {
+    //Click Speaker Icon to Listen To Accents Audio
+    let btnAccentsUs = document.getElementById("accents-US");
+    let btnAccentsGb = document.getElementById("accents-GB");
+
+    btnAccentsUs.addEventListener('click', function (event) {
         speakFunction(event, "US");
+        console.log('US speaker Icon Clicked');
+
     });
-    btnVoiceGb.addEventListener('click', function (event) {
+    btnAccentsGb.addEventListener('click', function (event) {
         speakFunction(event, "GB");
+        console.log('GB speaker Icon Clicked');
     });
 });
 
-//Fetch data from the JSON file
+/**
+ * Link To Fetch Data Stored In the JSON Folder
+ */
 async function fetchAlphabetsData() {
-    let res = await fetch("assets/js/json/alphabets-data.json");
-    alphabets = await res.json();
+    let response = await fetch('assets/js/json/alphabets-data.json');
+    alphabets = await response.json();
     generateAlphabet();
 }
 
-//Add voice on click
-function speakFunction(event, lang) {
-    event.stopPropagation();
-    let msg = new SpeechSynthesisUtterance();
-    msg.lang = `en-${lang}`;
-    msg.text = currentWord.replace('/', 'or');
-    speechSynthesis.speak(msg);
-}
-
-//Generate random index for the Alphabets
-let createRandom = function () {
+/**
+ * Generate Random alphabets from A to Z
+ */
+let randomAlphabets = function () {
     return Math.floor(Math.random() * alphabets.length);
 };
 
 /**
- * Function generates the Alphabet for the user
- * with all visible elements
+ * Generate Alphabet Funtion after data has been fetched from JSON file
+ * with pictural represnetation and word
  */
+let alphabetsArray = [];
 let generateAlphabet = function () {
     if (alphabets.length === 0) {
-        alphabets.push.apply(alphabets, temporaryAlphabetsArray);
+        alphabets.push.apply(alphabets, alphabetsArray);
     }
 
-    let alphabetTopic = document.getElementsByClassName('letter')[0];
-    let alphabetImage = document.getElementsByClassName('image')[0];
-    let alphabetWord = document.getElementsByClassName('english__word')[0];
+    let alphabetLetter = document.getElementsByClassName('letter')[0];
+    let alphabetImg = document.getElementsByClassName('image')[0];
+    let alphabetImageSpellingWord = document.getElementsByClassName('image-spelling-word')[0];
 
-    let randomIndex = createRandom();
+    let randomIndex = randomAlphabets();
 
-    alphabetTopic.innerText = alphabets[randomIndex].topic;
-    alphabetImage.innerHTML = `<img loading="lazy" src = ${alphabets[randomIndex].image} alt=${alphabets[randomIndex].imageAlt}>`;
-    alphabetWord.innerText = alphabets[randomIndex].word;
+    alphabetLetter.innerText = alphabets[randomIndex].letter;
+    alphabetImg.innerHTML = `<img src = ${alphabets[randomIndex].img} alt = ${alphabets[randomIndex].imgAlt}>`;
+    alphabetImageSpellingWord.innerText = alphabets[randomIndex].imageSpellingWord;
 
-    currentWord = alphabets[randomIndex].word;
-
-    temporaryAlphabetsArray.push(alphabets[randomIndex]);
-    alphabets.splice([randomIndex], 1);
+    currentWord = alphabets[randomIndex].imageSpellingWord;
 };
+
+/**
+ * Add Accents Audio to Click Speaker Icon
+ */
+
+function speakFunction(event, lang) {
+    event.stopPropagation();
+    let say = new SpeechSynthesisUtterance();
+    say.lang = `en-${lang}`;
+    say.text = currentWord.replace('/', 'or');
+    say.pitch = 0.5;
+    speechSynthesis.speak(say);
+}
