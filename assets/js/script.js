@@ -3,11 +3,12 @@
 // Wait for the DOM to finish loading before running the game
 
 // Add event listeners to button element after getting them
+//Coding Kowledge of EventListener gotten from Tutorial Lessons of Code Institute(https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+3/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/)
 
 document.addEventListener('DOMContentLoaded', function () {
     let nextAlphabet = document.getElementById("next-alphabet");
 
-    //Idea of fetch () code gotten from flash_cards(https://github.com/IuliiaKonovalova/flash_cards/blob/main/assets/js/cards.js) and indepth knowledge gotten from geeksforgeeks(https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp)
+    //Idea of fetch () function code gotten from flash_cards(https://github.com/IuliiaKonovalova/flash_cards/blob/main/assets/js/cards.js) and indepth knowledge gotten from geeksforgeeks(https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp)
     fetchAlphabetsData();
 
     //Click Next Alphabet Button to Get Next Alphabet
