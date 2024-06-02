@@ -26,7 +26,7 @@ body {
     height: 100vh;
 }
 
-/* Menu page Style */
+/* Header Style */
 .header {
     justify-self: center;
     align-self: center;
@@ -76,7 +76,7 @@ body {
     background-color: #1570cd;
 }
 
-/* Footer */
+/* Footer Style*/
 .social-contact {
     text-align: center;
     display: flex;
@@ -102,8 +102,6 @@ body {
 
 /* Header Button Style */
 .header-alphabet {
-    grid-column: 1/4;
-    grid-row: 1/2;
     display: grid;
 }
 
@@ -142,8 +140,6 @@ body {
 .alphabets {
     width: 100%;
     height: 100%;
-    transition: transform 900ms;
-    transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
 }
@@ -152,13 +148,9 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
 }
 
 .letter {
-    grid-row: 1/2;
     justify-self: center;
     align-self: center;
     color: black;
@@ -234,8 +226,6 @@ img {
 
 /* Next Alphabet Button Style */
 .next-alphabet-holder {
-    grid-column: 1/4;
-    grid-row: 3/4;
     justify-self: center;
     align-self: center;
 }
@@ -249,8 +239,6 @@ img {
     color: white;
     text-decoration: none;
     border: 1px solid black;
-    border-radius: var(--br);
-    box-shadow: inset 0px 2px 0px 0px #1570cd;
     display: inline-block;
     cursor: pointer;
 }

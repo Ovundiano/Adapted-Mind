@@ -7,6 +7,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     let nextAlphabet = document.getElementById("next-alphabet");
 
+    //Idea of fetch () code gotten from flash_cards(https://github.com/IuliiaKonovalova/flash_cards/blob/main/assets/js/cards.js) and indepth knowledge gotten from geeksforgeeks(https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp)
     fetchAlphabetsData();
 
     //Click Next Alphabet Button to Get Next Alphabet
