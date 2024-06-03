@@ -16,7 +16,6 @@ console.log(jsonArray);
 let alphabets = jsonArray;
 console.log(alphabets);
 
-
 //Coding Kowledge of EventListener() function gotten from Tutorial Lessons of Code Institute(https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+3/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/)
 document.addEventListener('DOMContentLoaded', function () {
     let nextAlphabet = document.getElementById("next-alphabet");
@@ -98,12 +97,10 @@ let generateAlphabet = function () {
     currentWord = alphabets[randomIndex].imageSpellingWord;
 };
 
-
-
 /**
  * Add Accents Audio to Click Speaker Icon
  */
-
+//Indepth Knowledge of SpeechSynthesisUtterance() Function gotten from webplatformcourse(https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.)
 function speakFunction(event, lang) {
     event.stopPropagation();
     let say = new SpeechSynthesisUtterance();
