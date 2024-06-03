@@ -84,7 +84,7 @@ let generateAlphabet = function () {
     console.log(alphabetLetter);
 
     let alphabetImg = document.getElementsByClassName('image')[0];
-    
+    console.log(alphabetImg);
 
     let alphabetImageSpellingWord = document.getElementsByClassName('image-spelling-word')[0];
     
