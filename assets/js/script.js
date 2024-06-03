@@ -12,6 +12,7 @@ for (let i = 0; i < 26; i++) {
     });
 }
 console.log(jsonArray);
+
 let alphabets = jsonArray;
 console.log(alphabets);
 
@@ -27,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
     nextAlphabet.addEventListener('click', function () {
         console.log("this is next alphabet = ", nextAlphabet);
         generateAlphabet()
-        console.log(current.alphabet);
     });
 
     //Click Enter Key to Get Next Alphabet
@@ -36,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
         if (event.key === 'Enter') {
             generateAlphabet();
         }
-        console.log(current.alphabet);
     });
 
     //Click Speaker Icon to Listen To Accents Audio
@@ -77,12 +76,12 @@ console.log(randomAlphabets);
  * with pictural represnetation and word
  */
 let generateAlphabet = function () {
-    if (alphabets.length === 0) {
-        console.log(alphabets);
+    if (alphabets.length === 0){
+        alphabets.push.apply(alphabets, jsonArray);
     }
 
     let alphabetLetter = document.getElementsByClassName('letter')[0];
-    
+    console.log(alphabetLetter);
 
     let alphabetImg = document.getElementsByClassName('image')[0];
     
