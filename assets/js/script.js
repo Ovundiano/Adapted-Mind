@@ -87,7 +87,7 @@ let generateAlphabet = function () {
     console.log(alphabetImg);
 
     let alphabetImageSpellingWord = document.getElementsByClassName('image-spelling-word')[0];
-    
+    console.log(alphabetImageSpellingWord);
 
     let randomIndex = randomAlphabets;
 
