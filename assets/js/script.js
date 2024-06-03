@@ -25,15 +25,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //Click Next Alphabet Button to Get Next Alphabet
     nextAlphabet.addEventListener('click', function () {
-        console.log("this is next alphabet = ", nextAlphabet);
+        console.log("this is next alphabet = ", document.getElementsByClassName('letter')[0]);
         generateAlphabet()
     });
 
     //Click Enter Key to Get Next Alphabet
     nextAlphabet.addEventListener('keydown', function (event) {
-        console.log("this is next alphabet= ", nextAlphabet);
         if (event.key === 'Enter') {
             generateAlphabet();
+            console.log("this is next alphabet= ", document.getElementsByClassName('letter')[0]);
         }
     });
 
@@ -75,7 +75,7 @@ console.log(randomAlphabets);
  * with pictural represnetation and word
  */
 let generateAlphabet = function () {
-    if (alphabets.length === 0){
+    if (alphabets.length === 0) {
         alphabets.push.apply(alphabets, jsonArray);
     }
 
