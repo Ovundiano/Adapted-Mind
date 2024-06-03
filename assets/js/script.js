@@ -12,9 +12,9 @@ for (let i = 0; i < 26; i++) {
     });
 }
 console.log(jsonArray);
-
 let alphabets = jsonArray;
 console.log(alphabets);
+
 
 //Coding Kowledge of EventListener() function gotten from Tutorial Lessons of Code Institute(https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+3/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/)
 document.addEventListener('DOMContentLoaded', function () {
