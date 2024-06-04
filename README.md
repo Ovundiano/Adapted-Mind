@@ -31,11 +31,13 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
     - The header also contains a paragraph "Learning made easy!".
 
-    - Menu page also has 1 main button:
+    - Menu page also contain a button:
 
         - Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
+    
+    - Menu page also contain the Footer Icon that has a live link to My GitHub page.
 
-    ![Menu Page](documentation/menu_page_screenshot.png)
+    ![Menu Page](documentation/menu-page-screenshot.png)
 
 + ### Alphabet A-Z Page
 
@@ -54,7 +56,6 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 - [HTML](https://developer.chrome.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.chrome.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
 - [CSS Flexbox](https://developer.chrome.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
-- [CSS Grid](https://developer.chrome.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
 - [JS](https://www.w3schools.com/js/) - was used to add interactivity to the site.
 - [Gitpod](https://gitpod.io/workspaces/) was used as the main tool to write and edit code.
 - [GitHub](https://github.com/) was used to host the code of the website.
