@@ -75,5 +75,11 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 - Black Color was used as text color of both pages.
 
+### Typography
+
+ ![Main Font](documentation/raleway-font-style.png)
+
+ - Raleway Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
 
 
