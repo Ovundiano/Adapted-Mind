@@ -93,7 +93,7 @@ function generateAlphabet() {
 
     alphabetImg.innerHTML = `<img src = ${alphabets[randomIndex].img} alt = ${alphabets[randomIndex].imgAlt}>`;
     console.log(alphabetLetter.innerText);
-
+    
     alphabetImageSpellingWord.innerText = alphabets[randomIndex].imageSpellingWord;
     console.log(alphabetImageSpellingWord.innerText);
 
