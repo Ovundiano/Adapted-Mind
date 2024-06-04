@@ -92,12 +92,13 @@ function generateAlphabet() {
     console.log(alphabetLetter.innerText);
 
     alphabetImg.innerHTML = `<img src = ${alphabets[randomIndex].img} alt = ${alphabets[randomIndex].imgAlt}>`;
-    console.log(alphabetLetter.innerText);
-    
+    console.log(alphabetImg.innerHTML);
+
     alphabetImageSpellingWord.innerText = alphabets[randomIndex].imageSpellingWord;
     console.log(alphabetImageSpellingWord.innerText);
 
     currentWord = alphabets[randomIndex].imageSpellingWord;
+    console.log(currentWord);
 };
 
 /**
