@@ -2,7 +2,7 @@
 
 // Wait for the DOM to finish loading before running the game
 
-//Indepth Knowledge on how to write code to generate array of JSON objects in JavaScript gotten from Quora(https://www.quora.com/What-is-the-best-way-to-generate-an-array-of-JSON-objects-dynamically-in-JavaScript#:~:text=There%20are%20several%20ways%20to,jsonArray.) and CI Tutor Support(https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
+//Indepth Knowledge on how to write code to generate array of JSON objects in JavaScript gotten from Quora(https://www.quora.com/What-is-the-best-way-to-generate-an-array-of-JSON-objects-dynamically-in-JavaScript#:~:text=There%20are%20several%20ways%20to,jsonArray.) and Idea gotten from CI Tutor Support(https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
 let jsonArray = [];
 for (let i = 0; i < 26; i++) {
     jsonArray.push({
