@@ -49,7 +49,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
     - It has a next alphabet button, which replaces the current alphabet and its representation with another alphabet and its representation. 
 
-    ![Alphabet A-Z Page](documentation/alphabet_page_screenshot.png)
+    ![Alphabet A-Z Page](documentation/alphabet-page-screenshot.png)
 
 ## Technologies Used
 
@@ -63,19 +63,17 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 ## Design
 
-![Navy Color](documentation/navy_color.png)
-Navy Color was used as the background color of the menu page, next alphabet button and back arrow button.
+### Color Scheme
 
-![White color](documentation/white_color.png)
-White Color was used as the background color of the alphabet page and text color of the next alphabet button.
+![Color pallet](documentation/color-pallette.png)
 
-![Strong Blue Color](documentation/strong_blue_color.png)
+- Navy Color was used as the background color of the menu page, next alphabet button and back arrow button.
 
-Strong Blue color was used as the hover color of both pages.
+- White Color was used as the background color of the alphabet page and text color of the next alphabet button.
 
+- Strong Blue color was used as the hover color of both pages.
 
-![Black Color](documentation/black_color.png)
-Black Color was used as text color of both pages.
+- Black Color was used as text color of both pages.
 
 
 
