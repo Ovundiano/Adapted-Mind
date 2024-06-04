@@ -188,7 +188,7 @@ img {
 }
 
 /* Image Pronounciation Style */
-.accent { 
+.accent {
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
@@ -260,7 +260,7 @@ img {
         cursor: pointer;
     }
 
-    /* Media for Alphabets Page Style */ 
+    /* Media for Alphabets Page Style */
 
     /* Main Style */
     .alphabet-main {
@@ -270,7 +270,7 @@ img {
         width: 100%;
         max-width: 80rem;
     }
-    
+
     .letter {
         font-size: 5vh;
         padding-left: 10px;
@@ -278,6 +278,7 @@ img {
         justify-content: center;
         display: flex;
     }
+
     .image {
         justify-self: center;
         align-self: center;
@@ -291,7 +292,7 @@ img {
     img {
         height: 25vh;
     }
-    
+
     /* Image Pronounciation Style */
     .accent {
         display: flex;
@@ -335,7 +336,7 @@ img {
         background-color: white;
         font-size: 2.5rem;
     }
-    
+
     /* Main Style */
     .alphabet-main {
         width: 100%;
@@ -374,7 +375,7 @@ img {
         letter-spacing: 1rem;
         margin-top: 20px;
     }
-    
+
     /* Image Pronounciation Style */
     .accent {
         display: flex;
@@ -396,7 +397,7 @@ img {
     .accents-icon {
         font-size: 2rem;
     }
-    
+
     /* Next Alphabet Button Style */
     .next-alphabet {
         padding: 1rem;

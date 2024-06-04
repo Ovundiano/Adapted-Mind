@@ -68,7 +68,7 @@ async function fetchAlphabetsData() {
  * Generate Random alphabets from A to Z
  */
 //Indepth Knowledge on randomAlphabets() Function gotten from CI Tutor Support(https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor)
-let randomAlphabets = function () { 
+let randomAlphabets = function () {
     return Math.floor(Math.random() * alphabets.length);
 };
 
