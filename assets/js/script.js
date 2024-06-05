@@ -62,7 +62,7 @@ async function fetchAlphabetsData() {
     let response = await fetch('assets/js/json/alphabets-data.json');
     alphabets = await response.json();
     generateAlphabet();
-};
+}
 
 /**
  * Generate Random alphabets from A to Z
@@ -99,7 +99,7 @@ function generateAlphabet() {
 
     currentWord = alphabets[randomIndex].imageSpellingWord;
     console.log(currentWord);
-};
+}
 
 /**
  * Add Accents Audio to Click Speaker Icon

@@ -61,6 +61,8 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [TinyPNG](https://tinypng.com/) was used to resize images.
 
+
+
 ## Design
 
 ### Color Scheme
@@ -80,6 +82,8 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  ![Main Font](documentation/raleway-font-style.png)
 
  - Raleway Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+## Bugs 
 
 
 
