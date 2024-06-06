@@ -117,10 +117,8 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
   - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://https://github.com/ovundiano/adapted-mind.git), which will start the Gitpod workspace for you.
 
  ## Future improvements
- - Add favicon with [Favicon Generator. For real.](https:);
  - Add custom 404 page;
  - Improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
- - Add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
  
  
   
