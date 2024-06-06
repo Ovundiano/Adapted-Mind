@@ -85,5 +85,44 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 ## Bugs 
 
+### Solved bugs
+ -Random Alphabets wasn't generating the next alphabet when the next alphabet button was clicked on the preview window.
+
+ *Solution:* I made the  Random Alphabet a function ``randomAlphabets();`` in the script.js and it started generating the next random alphabet.
+
+ #### Unfixed Bugs
+
+ -None.
+
+ ## Deployment
+
+ ### Deployment to GitHub Pages
+
+  - The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the general navigate to pages.
+  - In the pages, from the source drop down menu, select the main branch, then click save.
+  - Once saved, the link will be created to the website. 
+    
+
+  The live link can be found [here](https://ovundiano.github.io/Adapted-Mind/)
+
+ ### Local Deployment
+
+  - In order to make a local copy of this project, you can clone it.
+  - In your IDE Terminal, type the following command to clone my repository:
+
+   - `git clone https://github.com/Ovundiano/Adapted-Mind.git`
+
+  - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://https://github.com/ovundiano/adapted-mind.git), which will start the Gitpod workspace for you.
+
+ ## Future improvements
+ - Add favicon with [Favicon Generator. For real.](https:);
+ - Add custom 404 page;
+ - Improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
+ - Add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+ 
+ 
+  
 
 
