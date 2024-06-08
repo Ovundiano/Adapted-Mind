@@ -124,10 +124,16 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 ### Content 
 
- - The inspiration was gotten from my daugter to make learning easier for her.
- 
+ - The inspiration was gotten from my daugter, to make learning of alphabets easy for her.
+ - The name of the game "Adapted Mind" was gotten from [Adapted Mind](https://www.adaptedmind.com/) 
 
  ### Media
+
+ - The Apple image was gotten from [artplants](https://www.artplants.eu/artificial-apple-adalbero-green-3-1-8cm-o3-1-8cm.html)
+
+ - The banana image was gotten from [amazon](https://www.amazon.co.uk/Best-Artificial-Fruit-Veg-Bananas/dp/B00I5L4PU2/ref=asc_df_B00I5L4PU2/?tag=googshopuk-21&linkCode=df0&hvadid=345485807433&hvpos=&hvnetw=g&hvrand=5658211242454132803&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-788077859243&mcid=9a4b198a44553ecbbac14b01f5eb3ca2&th=1)
+
+ - The cat image was gotten from []
  
  
   
