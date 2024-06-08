@@ -148,3 +148,5 @@ The Egg image was gotten from [fruugo.ie](https://www.fruugo.ie/1-simulation-eas
 - The Ice-cream image was gotten from [etsy.com](https://www.etsy.com/ie/listing/1511998203/ice-cream-clipart-set-of-10-digital?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-craft_supplies_and_tools-canvas_and_surfaces&utm_custom1=_k_CjwKCAjwgpCzBhBhEiwAOSQWQTpgNSOJE7BouwwPMKxgwY9QWUrRy7p9c3ZV9Cqv-M41jcOCeDgRyxoCCE8QAvD_BwE_k_&utm_content=go_13703308031_123455837279_530490401461_aud-2079782229334:pla-326655468364_c__1511998203enie_5302856390&utm_custom2=13703308031&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQTpgNSOJE7BouwwPMKxgwY9QWUrRy7p9c3ZV9Cqv-M41jcOCeDgRyxoCCE8QAvD_BwE)
 
 - The Jug image was gotten from [ebay.co.uk](https://www.ebay.ie/)
+
+- The Kettle image was gotten from [amazon.com](https://www.amazon.co.uk/SHANGZHER-Induction-Whistling-Kettle-Colour/dp/B09L52VDZ7/ref=asc_df_B09L52VDZ7/?tag=googshopuk-21&linkCode=df0&hvadid=570408700271&hvpos=&hvnetw=g&hvrand=7667676584192042450&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-1597575755424&psc=1&mcid=8986d7cfcae8309d84f3f6000f817d2f)
