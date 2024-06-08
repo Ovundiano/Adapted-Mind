@@ -135,7 +135,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
  - The cat image was gotten from [etsy.com](https://www.etsy.com/ie/listing/1525988050/4-lovely-photos-of-kittens-to-melt-your?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-home_and_living-home_decor&utm_custom1=_k_CjwKCAjwgpCzBhBhEiwAOSQWQceuNyIy2QdSZFcaRKOeCf_e6v_m1GyYT0Fe0MvFV1JvJ8nMDB1D0BoCyJ8QAvD_BwE_k_&utm_content=go_13703308034_123455838199_530490401497_aud-2079782229334:pla-303663659969_c__1525988050enie_432418375&utm_custom2=13703308034&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQceuNyIy2QdSZFcaRKOeCf_e6v_m1GyYT0Fe0MvFV1JvJ8nMDB1D0BoCyJ8QAvD_BwE)
  
- 
-The Egg image was gotten from []()
+ - The Dog image was gotten from [amazon.com](https://www.amazon.co.uk/Reofrey-Diamond-Painting-Accessories-Embroidery/dp/B0C14BHF4H/ref=asc_df_B0C14BHF4H/?tag=googshopuk-21&linkCode=df0&hvadid=678566321209&hvpos=&hvnetw=g&hvrand=4744681330621965420&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-2244622616307&psc=1&mcid=a565e1a6e5893df5abe2c8f78c8dee64&gad_source=1)
+  
 
 
