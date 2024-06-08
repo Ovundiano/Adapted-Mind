@@ -119,6 +119,15 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  ## Future improvements
  - Add custom 404 page;
  - Improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
+
+## Credits  
+
+### Content 
+
+ - The inspiration was gotten from my daugter to make learning easier for her.
+ 
+
+ ### Media
  
  
   
