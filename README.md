@@ -158,19 +158,22 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
   #### HTML
     - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
+
       - Main Page:
-          ![Main Page HTML Validator](documentation/menu-page-html-validator.png)
+  ![Main Page HTML Validator](documentation/menu-page-html-validator.png)
+
       - Card Page:
-          ![Alphabets Page HTML Validator](documentation/alphabets-page-html-validator.png)
+  ![Alphabets Page HTML Validator](documentation/alphabets-page-html-validator.png)
 
   ### CSS
     - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator.
-    ![CSS Validator Testing](documentation/css-validator-testing.png).
+
+  ![CSS Validator Testing](documentation/css-validator-testing.png)
 
   ### JS
     - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except that SpeechSynthesisUtterance and speechSynthesis are undefined.
 
-      ![JSHint Validator Testing](documentation/js-validator-testing.png).
+  ![JSHint Validator Testing](documentation/js-validator-testing.png)
 
   ### LightHouse Report
 
