@@ -133,7 +133,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
  ### COMPATIBILITY:
 
-  - The app was tested on the following browsers: Chrome, Firefox and Edge:
+  - In order to confirm the correct functionality and appearance across devices, the website was tested on the following browsers: Chrome, Firefox and Microsoft Edge.
 
     - Chrome:
 
@@ -157,21 +157,21 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  ### Validator testing
 
   #### HTML
-    - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
+ - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
 
       - Main Page:
   ![Main Page HTML Validator](documentation/menu-page-html-validator.png)
 
-      - Card Page:
+      - Alphabets Page:
   ![Alphabets Page HTML Validator](documentation/alphabets-page-html-validator.png)
 
   ### CSS
-    - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator.
+  - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator.
 
   ![CSS Validator Testing](documentation/css-validator-testing.png)
 
   ### JS
-    - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except that SpeechSynthesisUtterance and speechSynthesis are undefined.
+ - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except that SpeechSynthesisUtterance and speechSynthesis are undefined.
 
   ![JSHint Validator Testing](documentation/js-validator-testing.png)
 
@@ -212,7 +212,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 ## Future improvements
  - Add custom 404 page;
  - Improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
- - Subsequently, when I would like to add more game contents to include Numbers and Colors options.
+ - Subsequently, I would like to add more game contents to include Numbers and Colors options.
 
 ## Credits  
 
@@ -275,11 +275,19 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 ## Acknowledgement 
   - Divine Mazi, My wife was a great support system towards Me actualizing this project.
+
   - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great mentor and thanks for pushing me out of my comfort zone.
+
   - [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor) tutors for their support and help.
+
   - [Quora](https://www.quora.com/What-is-the-best-way-to-generate-an-array-of-JSON-objects-dynamically-in-JavaScript#:~:text=There%20are%20several%20ways%20to,jsonArray.) for the Indepth Knowledge on how to write the code to generate array of JSON objects in JavaScript.
+
   - [geeksforgeeks](https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp) for the indepth knowledge of fetch() Function.
+
   - [mdnwebdocs](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak) for the indepth knowledge of speakFunction().
+
   - [w3schools](https://www.w3schools.com/js/js_json.asp) for the indepth knowledge of JSON data storage file.
+
   - [freeCodeCamp](https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/#:~:text=In%20summary%2C%20asynchronous%20programming%20is,async%2Fawait%2C%20and%20promises.) for the indepth knowledge of Async() Function.
+
   - [webplatformcourse](https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.) for the indepth knowledge of SpeechSynthesisUtterance() Function.
