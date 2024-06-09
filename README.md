@@ -107,6 +107,11 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
             generateAlphabet();
         }``
 
+ - The index.html file had bugs of undefined variables that doesn't exist in the index.html page in the devtool console.
+
+  *Solution:* I removed the script file link added initially to the index.html page.
+        ``<script src="assets/js/script.js"></script>``
+
  ### Unfixed Bugs
 
  -None.
