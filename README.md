@@ -61,8 +61,6 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [TinyPNG](https://tinypng.com/) was used to resize images.
 
-
-
 ## Design
 
 ### Color Scheme
@@ -94,7 +92,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
  -None.
 
- ## Deployment
+## Deployment
 
  ### Deployment to GitHub Pages
 
@@ -116,13 +114,13 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
   - Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://https://github.com/ovundiano/adapted-mind.git), which will start the Gitpod workspace for you.
 
- ## Future improvements
+## Future improvements
  - Add custom 404 page;
  - Improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
 
 ## Credits  
 
-### Content 
+ ### Content 
 
  - The inspiration was gotten from my daugter, to make learning of alphabets easy for her.
  - The name of the game "Adapted Mind" was gotten from [Adapted Mind](https://www.adaptedmind.com/) 
@@ -137,42 +135,42 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  
  - The Dog image was gotten from [amazon.com](https://www.amazon.co.uk/Reofrey-Diamond-Painting-Accessories-Embroidery/dp/B0C14BHF4H/ref=asc_df_B0C14BHF4H/?tag=googshopuk-21&linkCode=df0&hvadid=678566321209&hvpos=&hvnetw=g&hvrand=4744681330621965420&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-2244622616307&psc=1&mcid=a565e1a6e5893df5abe2c8f78c8dee64&gad_source=1)
   
-The Egg image was gotten from [fruugo.ie](https://www.fruugo.ie/1-simulation-easter-eggs-wooden-fake-eggs-23-inch-solid-eggs-fan0305/p-273442201-606507480?language=en&ac=croud&asc=pmax&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQZx_keUq4ms2QUPOmKY08Huj4q06YSVxGN7DFkILCM1nHdQo2pkFIxoCCz4QAvD_BwE)
+ - The Egg image was gotten from [fruugo.ie](https://www.fruugo.ie/1-simulation-easter-eggs-wooden-fake-eggs-23-inch-solid-eggs-fan0305/p-273442201-606507480?language=en&ac=croud&asc=pmax&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQZx_keUq4ms2QUPOmKY08Huj4q06YSVxGN7DFkILCM1nHdQo2pkFIxoCCz4QAvD_BwE)
 
-- The Fish image was gotten from [amazon.com](https://www.amazon.co.uk/Simulation-Pillow%EF%BC%8CDecorate-Decorate-Oversized-Creative/dp/B0BLRYFD6H/ref=asc_df_B0BLRYFD6H/?tag=googshopuk-21&linkCode=df0&hvadid=649314500303&hvpos=&hvnetw=g&hvrand=2377051287241288729&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-1989738914794&psc=1&mcid=39b8da9ce99a3d6ba00a39489b8b6ca8)
+ - The Fish image was gotten from [amazon.com](https://www.amazon.co.uk/Simulation-Pillow%EF%BC%8CDecorate-Decorate-Oversized-Creative/dp/B0BLRYFD6H/ref=asc_df_B0BLRYFD6H/?tag=googshopuk-21&linkCode=df0&hvadid=649314500303&hvpos=&hvnetw=g&hvrand=2377051287241288729&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-1989738914794&psc=1&mcid=39b8da9ce99a3d6ba00a39489b8b6ca8)
 
-- The Guava image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/233736990549)
+ - The Guava image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/233736990549)
 
-- The House image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/325460475785?chn=ps&_ul=GB&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQBwqB4UHSDeMq22r4RrWKNfVU5ZxUWOZ7ElhrVP8Kf1n-8L3kmh0RoCGYgQAvD_BwE)
+ - The House image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/325460475785?chn=ps&_ul=GB&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQBwqB4UHSDeMq22r4RrWKNfVU5ZxUWOZ7ElhrVP8Kf1n-8L3kmh0RoCGYgQAvD_BwE)
 
-- The Ice-cream image was gotten from [etsy.com](https://www.etsy.com/ie/listing/1511998203/ice-cream-clipart-set-of-10-digital?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-craft_supplies_and_tools-canvas_and_surfaces&utm_custom1=_k_CjwKCAjwgpCzBhBhEiwAOSQWQTpgNSOJE7BouwwPMKxgwY9QWUrRy7p9c3ZV9Cqv-M41jcOCeDgRyxoCCE8QAvD_BwE_k_&utm_content=go_13703308031_123455837279_530490401461_aud-2079782229334:pla-326655468364_c__1511998203enie_5302856390&utm_custom2=13703308031&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQTpgNSOJE7BouwwPMKxgwY9QWUrRy7p9c3ZV9Cqv-M41jcOCeDgRyxoCCE8QAvD_BwE)
+ - The Ice-cream image was gotten from [etsy.com](https://www.etsy.com/ie/listing/1511998203/ice-cream-clipart-set-of-10-digital?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-craft_supplies_and_tools-canvas_and_surfaces&utm_custom1=_k_CjwKCAjwgpCzBhBhEiwAOSQWQTpgNSOJE7BouwwPMKxgwY9QWUrRy7p9c3ZV9Cqv-M41jcOCeDgRyxoCCE8QAvD_BwE_k_&utm_content=go_13703308031_123455837279_530490401461_aud-2079782229334:pla-326655468364_c__1511998203enie_5302856390&utm_custom2=13703308031&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQTpgNSOJE7BouwwPMKxgwY9QWUrRy7p9c3ZV9Cqv-M41jcOCeDgRyxoCCE8QAvD_BwE)
 
-- The Jug image was gotten from [ebay.co.uk](https://www.ebay.ie/)
+ - The Jug image was gotten from [ebay.co.uk](https://www.ebay.ie/)
 
-- The Kettle image was gotten from [amazon.com](https://www.amazon.co.uk/SHANGZHER-Induction-Whistling-Kettle-Colour/dp/B09L52VDZ7/ref=asc_df_B09L52VDZ7/?tag=googshopuk-21&linkCode=df0&hvadid=570408700271&hvpos=&hvnetw=g&hvrand=7667676584192042450&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-1597575755424&psc=1&mcid=8986d7cfcae8309d84f3f6000f817d2f)
+ - The Kettle image was gotten from [amazon.com](https://www.amazon.co.uk/SHANGZHER-Induction-Whistling-Kettle-Colour/dp/B09L52VDZ7/ref=asc_df_B09L52VDZ7/?tag=googshopuk-21&linkCode=df0&hvadid=570408700271&hvpos=&hvnetw=g&hvrand=7667676584192042450&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-1597575755424&psc=1&mcid=8986d7cfcae8309d84f3f6000f817d2f)
 
-- The Lemon image was gotten from [amazon.com](https://www.amazon.co.uk/Gourmands-Lemon-Collection-Stories-Recipes/dp/3836585901/ref=asc_df_3836585901/?tag=googshopuk-21&linkCode=df0&hvadid=676236594673&hvpos=&hvnetw=g&hvrand=16447874111772097128&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-2244205442620&psc=1&mcid=ea10f9eb4d443eca912e294c2beff493&th=1&psc=1&gad_source=1)
+ - The Lemon image was gotten from [amazon.com](https://www.amazon.co.uk/Gourmands-Lemon-Collection-Stories-Recipes/dp/3836585901/ref=asc_df_3836585901/?tag=googshopuk-21&linkCode=df0&hvadid=676236594673&hvpos=&hvnetw=g&hvrand=16447874111772097128&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-2244205442620&psc=1&mcid=ea10f9eb4d443eca912e294c2beff493&th=1&psc=1&gad_source=1)
 
-- The Mango image was gotten from [artplants.eu](https://www.artplants.eu/plastic-mango-florisa-orange-yellow-5-13cm-o-3-1-8cm.html?pk_campaign=&pk_kwd=&pk_source=googleAds&pk_medium=&pk_content=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQ6vHXBBDLNMYuYHvoCnXoLXS-kw51hQUV7gdibrTj2LUVrQaFD2jBoCGQYQAvD_BwE)
+ - The Mango image was gotten from [artplants.eu](https://www.artplants.eu/plastic-mango-florisa-orange-yellow-5-13cm-o-3-1-8cm.html?pk_campaign=&pk_kwd=&pk_source=googleAds&pk_medium=&pk_content=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQ6vHXBBDLNMYuYHvoCnXoLXS-kw51hQUV7gdibrTj2LUVrQaFD2jBoCGQYQAvD_BwE)
 
-- The Nest image was gotten from [irl.grandado.com](https://irl.grandado.com/products/rattan-nesting-bird-nest-props-handicrafts-henhouse-home-decoration-decoration-natural-handmade-easter-birds-nest?variant=UHJvZHVjdFZhcmlhbnQ6NjA1NTU4Njg&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQZyshIRYQmdcyJ2-DGCG_pzAHQUDMGgtFbJYXwuQtKISZZjPMfvJ3xoCWigQAvD_BwE)
+ - The Nest image was gotten from [irl.grandado.com](https://irl.grandado.com/products/rattan-nesting-bird-nest-props-handicrafts-henhouse-home-decoration-decoration-natural-handmade-easter-birds-nest?variant=UHJvZHVjdFZhcmlhbnQ6NjA1NTU4Njg&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQZyshIRYQmdcyJ2-DGCG_pzAHQUDMGgtFbJYXwuQtKISZZjPMfvJ3xoCWigQAvD_BwE)
 
-- The Orange image was gotten from [fruugo.ie](https://www.fruugo.ie/fruit-photo-props-education-display-props-creative-gift-plastic-artificial-home-wedding-showcase-decorations-orange/p-212218310-452578709?language=en&ac=croud&asc=pmax&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQxpBwzSintzVNJ0wUCxs3DMnzyI-V-6qDiSsQMSImS_xR8o5PyVhhoCSwIQAvD_BwE)
+ - The Orange image was gotten from [fruugo.ie](https://www.fruugo.ie/fruit-photo-props-education-display-props-creative-gift-plastic-artificial-home-wedding-showcase-decorations-orange/p-212218310-452578709?language=en&ac=croud&asc=pmax&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQxpBwzSintzVNJ0wUCxs3DMnzyI-V-6qDiSsQMSImS_xR8o5PyVhhoCSwIQAvD_BwE)
 
-- The Rat image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/185872622895?chn=ps&_ul=GB&var=693841919283&_trkparms=ispr%3D1&amdata=enc%3A1POC407XFQy6tgsnsPG7fDA79&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQclknbQ_N-UuC586d-We5i2IcOgiZ5b9ktQ5ttt7T6hytixf5eh-PhoCK-AQAvD_BwE)
+ - The Rat image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/185872622895?chn=ps&_ul=GB&var=693841919283&_trkparms=ispr%3D1&amdata=enc%3A1POC407XFQy6tgsnsPG7fDA79&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQclknbQ_N-UuC586d-We5i2IcOgiZ5b9ktQ5ttt7T6hytixf5eh-PhoCK-AQAvD_BwE)
 
-- The Star image was gotten from [amazon.com](https://www.amazon.co.uk/Gold-Star-Pin-badge-Pack/dp/B00O8PPU0S/ref=asc_df_B00O8PPU0S/?tag=googshopuk-21&linkCode=df0&hvadid=321467364611&hvpos=&hvnetw=g&hvrand=220813858926427110&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-696911648107&psc=1&mcid=228631126a8331d48cabc09fa8e2eaf3)
+ - The Star image was gotten from [amazon.com](https://www.amazon.co.uk/Gold-Star-Pin-badge-Pack/dp/B00O8PPU0S/ref=asc_df_B00O8PPU0S/?tag=googshopuk-21&linkCode=df0&hvadid=321467364611&hvpos=&hvnetw=g&hvrand=220813858926427110&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-696911648107&psc=1&mcid=228631126a8331d48cabc09fa8e2eaf3)
 
-- The Table image was gotten from [amazon.com](https://www.amazon.co.uk/Ikea-Lack-Small-Coffee-Table-55x45x55/dp/B00GMMDUIY/ref=asc_df_B00GMMDUIY/?tag=googshopuk-21&linkCode=df0&hvadid=226543000788&hvpos=&hvnetw=g&hvrand=13922216650052790471&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-420899094179&psc=1&mcid=e10323b167803d02962d2c0e27690973)
+ - The Table image was gotten from [amazon.com](https://www.amazon.co.uk/Ikea-Lack-Small-Coffee-Table-55x45x55/dp/B00GMMDUIY/ref=asc_df_B00GMMDUIY/?tag=googshopuk-21&linkCode=df0&hvadid=226543000788&hvpos=&hvnetw=g&hvrand=13922216650052790471&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-420899094179&psc=1&mcid=e10323b167803d02962d2c0e27690973)
 
-- The Umbrella image was gotten from [ebay.co.uk](https://www.ebay.co.uk/sch/i.html?_from=R40&_nkw=rainbow+umbrella&_sacat=0&_pgn=1)
+ - The Umbrella image was gotten from [ebay.co.uk](https://www.ebay.co.uk/sch/i.html?_from=R40&_nkw=rainbow+umbrella&_sacat=0&_pgn=1)
 
-- The Van image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/235521773263?chn=ps&_ul=GB&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQef043Q0Pg0D6gvPEzb29EjigMD1D-Obs6XPXzoZfTRCbfzBTiRGmhoCzukQAvD_BwE)
+ - The Van image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/235521773263?chn=ps&_ul=GB&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQef043Q0Pg0D6gvPEzb29EjigMD1D-Obs6XPXzoZfTRCbfzBTiRGmhoCzukQAvD_BwE)
 
-- The Watermelon image was gotten from [fruugo.ie](https://www.fruugo.ie/watermelon-high-strength-professional-flavouring/p-70108127-140722132?language=en&ac=croud&asc=pmax&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQUobNPhdPC1aHDtfhlWOxO09uDZRDO1MTBkZ8pMWWSvTUepZrmB4dxoCPCEQAvD_BwE)
+ - The Watermelon image was gotten from [fruugo.ie](https://www.fruugo.ie/watermelon-high-strength-professional-flavouring/p-70108127-140722132?language=en&ac=croud&asc=pmax&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQUobNPhdPC1aHDtfhlWOxO09uDZRDO1MTBkZ8pMWWSvTUepZrmB4dxoCPCEQAvD_BwE)
 
-- The Xylophone image was gotten from [amazon.com](https://www.amazon.co.uk/Bigjigs-Toys-Wooden-Snazzy-Xylophone/dp/B005GTDCRS/ref=asc_df_B005GTDCRS/?tag=googshopuk-21&linkCode=df0&hvadid=310513207086&hvpos=&hvnetw=g&hvrand=788361244038325978&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-565307527668&psc=1&mcid=b8ab622969de3c53893173c6bfe66bb1)
+ - The Xylophone image was gotten from [amazon.com](https://www.amazon.co.uk/Bigjigs-Toys-Wooden-Snazzy-Xylophone/dp/B005GTDCRS/ref=asc_df_B005GTDCRS/?tag=googshopuk-21&linkCode=df0&hvadid=310513207086&hvpos=&hvnetw=g&hvrand=788361244038325978&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20479&hvtargid=pla-565307527668&psc=1&mcid=b8ab622969de3c53893173c6bfe66bb1)
 
-- The Yatch image was gotten from [etsy.com](https://www.etsy.com/ie/listing/1526203801/luxury-yacht-watercolor-clipart-bundle?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-craft_supplies_and_tools-canvas_and_surfaces&utm_custom1=_k_CjwKCAjwgpCzBhBhEiwAOSQWQT5P3Bo7Qiy7M9Sxz4gQzMci7f0KuIGTYYkNcsUPotkvIbJGV_CYtBoCyKgQAvD_BwE_k_&utm_content=go_13703308031_123455837279_530490401461_aud-2079782229494:pla-326655468364_c__1526203801enie_5316607821&utm_custom2=13703308031&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQT5P3Bo7Qiy7M9Sxz4gQzMci7f0KuIGTYYkNcsUPotkvIbJGV_CYtBoCyKgQAvD_BwE)
+ - The Yatch image was gotten from [etsy.com](https://www.etsy.com/ie/listing/1526203801/luxury-yacht-watercolor-clipart-bundle?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-craft_supplies_and_tools-canvas_and_surfaces&utm_custom1=_k_CjwKCAjwgpCzBhBhEiwAOSQWQT5P3Bo7Qiy7M9Sxz4gQzMci7f0KuIGTYYkNcsUPotkvIbJGV_CYtBoCyKgQAvD_BwE_k_&utm_content=go_13703308031_123455837279_530490401461_aud-2079782229494:pla-326655468364_c__1526203801enie_5316607821&utm_custom2=13703308031&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQT5P3Bo7Qiy7M9Sxz4gQzMci7f0KuIGTYYkNcsUPotkvIbJGV_CYtBoCyKgQAvD_BwE)
 
-- The Zebra image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/186182795154?chn=ps&_ul=GB&var=694219319934&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQAAd4KOeyqBc9kHLt46G69_TNCfxBASnnOwkL7W8H9mrxzyioJB7RoCzZsQAvD_BwE)
+ - The Zebra image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/186182795154?chn=ps&_ul=GB&var=694219319934&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQAAd4KOeyqBc9kHLt46G69_TNCfxBASnnOwkL7W8H9mrxzyioJB7RoCzZsQAvD_BwE)
