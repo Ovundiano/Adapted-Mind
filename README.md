@@ -6,7 +6,7 @@ Adapted Mind app was built for children to help simplify learning of alphabets. 
 
 The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind/)
 
-![Responsive Mockup](documentation/responsive_mockup.png)
+![Responsive screenshot](documentation/responsive-images-screenshot.png)
 
 ## User Stories
 
@@ -60,6 +60,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 - [Gitpod](https://gitpod.io/workspaces/) was used as the main tool to write and edit code.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [TinyPNG](https://tinypng.com/) was used to resize images.
+- [PineTools](https://pinetools.com/merge-images) was used to merge images.
 
 ## Design
 
