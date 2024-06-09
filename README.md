@@ -157,7 +157,9 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  ### Content 
 
  - The inspiration was gotten from my daugter, to make learning of alphabets easy for her.
- - The name of the game "Adapted Mind" was gotten from [Adapted Mind](https://www.adaptedmind.com/) 
+ - The name of the game "Adapted Mind" was gotten from [Adapted Mind](https://www.adaptedmind.com/).
+ - GitHub icon in the footer was taken from [Font Awesome](https://fontawesome.com/)
+ - The Raleway font was gotten from [Google Font](https://fonts.google.com/) 
 
  ### Media
 
