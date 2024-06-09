@@ -150,6 +150,10 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
   ![Menu Page](documentation/menu-page-edge.png)
   ![Alphabets page](documentation/alphabet-page-edge.png) 
 
+ ### Devtools Responsive Testing
+
+ - In order to confirm the responsivenes of the website across devices, the website was checked with devtools implemented in Chrome, Microsoft Edge and Firefox browsers.
+
 ## Deployment
 
  ### Deployment to GitHub Pages
