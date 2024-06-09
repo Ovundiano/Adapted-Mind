@@ -84,11 +84,30 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 ## Bugs 
 
 ### Solved bugs
- -Random Alphabets wasn't generating the next alphabet when the next alphabet button was clicked on the preview window.
+ -The Next Alphabet button wasn't generating the Next Random Alphabet when the Next Alphabet button was clicked on the preview window.
+        ``let randonAlphabets = Math.floor(Math.random() * alphabets.length);
+        console.log(randomAlphabets);``
 
- *Solution:* I made the  Random Alphabet a function ``randomAlphabets();`` in the script.js and it started generating the next random alphabet.
+ *Solution:* I made the  Random Alphabet a function() in the script.js and it started generating the next random alphabet.
+        ``let randomAlphabets = function () {
+            return Math.floor(Math.random() * alphabets.length);
+        };``
 
- #### Unfixed Bugs
+ - The preview window wasn't generating Alphabet with it's corresponding Image and ImageSpellingWord when loaded.
+        ``async function fetchAlphabetsData() {
+            let response = await fetch('assets/js/json/alphabets-data.json');
+            alphabets = await response.json();
+            console.log(alphabets);
+        }``
+
+ *Solution:* I added generateAlphabet() function instead of console.log() function to the fetchAlphabetsData() of the JSON file.
+        async function fetchAlphabetsData() {
+            let response = await fetch('assets/js/json/alphabets-data.json');
+            alphabets = await response.json();
+            generateAlphabet();
+        }``
+
+ ### Unfixed Bugs
 
  -None.
 
