@@ -89,28 +89,37 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
         console.log(randomAlphabets);``
 
  *Solution:* I made the  Random Alphabet a function() in the script.js and it started generating the next random alphabet.
-        ``let randomAlphabets = function () {
+
+        ```js
+        let randomAlphabets = function () {
             return Math.floor(Math.random() * alphabets.length);
-        };``
+        };
+        ```
 
  - The preview window wasn't generating Alphabet with it's corresponding Image and ImageSpellingWord when loaded.
-        ``async function fetchAlphabetsData() {
+
+        ```js
+        async function fetchAlphabetsData() {
             let response = await fetch('assets/js/json/alphabets-data.json');
             alphabets = await response.json();
             console.log(alphabets);
-        }``
+        }
+        ```
 
  *Solution:* I added generateAlphabet() function instead of console.log() function to the fetchAlphabetsData() of the JSON file.
+
+        ```js
         async function fetchAlphabetsData() {
             let response = await fetch('assets/js/json/alphabets-data.json');
             alphabets = await response.json();
             generateAlphabet();
-        }``
+        }
+        ```
 
  - The index.html file had bugs of undefined variables that doesn't exist in the index.html page in the devtool console.
 
   *Solution:* I removed the script file link added initially to the index.html page.
-        ``<script src="assets/js/script.js"></script>``
+        ```<script src="assets/js/script.js"></script>```
 
  ### Unfixed Bugs
 
@@ -198,3 +207,14 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  - The Yatch image was gotten from [etsy.com](https://www.etsy.com/ie/listing/1526203801/luxury-yacht-watercolor-clipart-bundle?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_ie_en_ie_-craft_supplies_and_tools-canvas_and_surfaces&utm_custom1=_k_CjwKCAjwgpCzBhBhEiwAOSQWQT5P3Bo7Qiy7M9Sxz4gQzMci7f0KuIGTYYkNcsUPotkvIbJGV_CYtBoCyKgQAvD_BwE_k_&utm_content=go_13703308031_123455837279_530490401461_aud-2079782229494:pla-326655468364_c__1526203801enie_5316607821&utm_custom2=13703308031&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQT5P3Bo7Qiy7M9Sxz4gQzMci7f0KuIGTYYkNcsUPotkvIbJGV_CYtBoCyKgQAvD_BwE)
 
  - The Zebra image was gotten from [ebay.co.uk](https://www.ebay.co.uk/itm/186182795154?chn=ps&_ul=GB&var=694219319934&norover=1&mkevt=1&mkrid=710-169260-534375-3&mkcid=2&keyword=&crlp=670833748941_&MT_ID=&geo_id=&rlsatarget=pla-293946777986&adpos=&device=c&mktype=pla&loc=20479&poi=&abcId=&cmpgn=20488672762&sitelnk=&adgroupid=155578564071&network=g&matchtype=&gad_source=1&gclid=CjwKCAjwgpCzBhBhEiwAOSQWQQAAd4KOeyqBc9kHLt46G69_TNCfxBASnnOwkL7W8H9mrxzyioJB7RoCzZsQAvD_BwE)
+
+## Acknowledgement 
+  - Divine Mazi, My wife was a great support system towards Me actualizing this project.
+  - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great mentor and thanks for pushing me out of my comfort zone.
+  - [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor) tutors for their support and help.
+  - [Quora] (https://www.quora.com/What-is-the-best-way-to-generate-an-array-of-JSON-objects-dynamically-in-JavaScript#:~:text=There%20are%20several%20ways%20to,jsonArray.) for the Indepth Knowledge on how to write the code to generate array of JSON objects in JavaScript.
+  - [geeksforgeeks] (https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp) for the indepth knowledge of fetch() Function.
+  - [mdnwebdocs] (https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak) for the indepth knowledge of speakFunction().
+  - [w3schools] (https://www.w3schools.com/js/js_json.asp) for the indepth knowledge of JSON data storage file.
+  - [freeCodeCamp] (https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/#:~:text=In%20summary%2C%20asynchronous%20programming%20is,async%2Fawait%2C%20and%20promises.) for the indepth knowledge of Async() Function.
+  - [webplatformcourse] (https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.) for the indepth knowledge of SpeechSynthesisUtterance() Function.
