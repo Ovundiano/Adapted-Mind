@@ -212,9 +212,9 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
   - Divine Mazi, My wife was a great support system towards Me actualizing this project.
   - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great mentor and thanks for pushing me out of my comfort zone.
   - [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor) tutors for their support and help.
-  - [Quora] (https://www.quora.com/What-is-the-best-way-to-generate-an-array-of-JSON-objects-dynamically-in-JavaScript#:~:text=There%20are%20several%20ways%20to,jsonArray.) for the Indepth Knowledge on how to write the code to generate array of JSON objects in JavaScript.
-  - [geeksforgeeks] (https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp) for the indepth knowledge of fetch() Function.
-  - [mdnwebdocs] (https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak) for the indepth knowledge of speakFunction().
-  - [w3schools] (https://www.w3schools.com/js/js_json.asp) for the indepth knowledge of JSON data storage file.
-  - [freeCodeCamp] (https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/#:~:text=In%20summary%2C%20asynchronous%20programming%20is,async%2Fawait%2C%20and%20promises.) for the indepth knowledge of Async() Function.
-  - [webplatformcourse] (https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.) for the indepth knowledge of SpeechSynthesisUtterance() Function.
+  - [Quora](https://www.quora.com/What-is-the-best-way-to-generate-an-array-of-JSON-objects-dynamically-in-JavaScript#:~:text=There%20are%20several%20ways%20to,jsonArray.) for the Indepth Knowledge on how to write the code to generate array of JSON objects in JavaScript.
+  - [geeksforgeeks](https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp) for the indepth knowledge of fetch() Function.
+  - [mdnwebdocs](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak) for the indepth knowledge of speakFunction().
+  - [w3schools](https://www.w3schools.com/js/js_json.asp) for the indepth knowledge of JSON data storage file.
+  - [freeCodeCamp](https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/#:~:text=In%20summary%2C%20asynchronous%20programming%20is,async%2Fawait%2C%20and%20promises.) for the indepth knowledge of Async() Function.
+  - [webplatformcourse](https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.) for the indepth knowledge of SpeechSynthesisUtterance() Function.
