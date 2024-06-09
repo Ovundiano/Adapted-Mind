@@ -27,27 +27,27 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
  ### Main Page
 
-    - Main page has the header containing the Title of the app "ADAPTED MIND".
+ - Main page has the header containing the Title of the app "ADAPTED MIND".
 
-    - The header also contains a paragraph "Learning made easy!".
+ - The header also contains a paragraph "Learning made easy!".
 
-    - Main page also contain a button:
+ - Main page also contain a button:
 
-        - Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
+    - Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
     
-    - Main page also contain the Footer Icon that has a live link to My GitHub page.
+ - Main page also contain the Footer Icon that has a live link to My GitHub page.
 
 ![Main Page](documentation/menu-page-screenshot.png)
 
  ### Alphabet A-Z Page
 
-    - It has a button at the top left corner of the screen, which takes you back to the main page;
+ - It has a button at the top left corner of the screen, which takes you back to the main page;
 
-    - It consist of an alphabet with it's corresponding Image representation and Image Spelling Word;
+ - It consist of an alphabet with it's corresponding Image representation and Image Spelling Word;
 
-    - It has the sound buttons, which allows the user to listen to the correct American and British pronunciation of the word;
+ - It has the sound buttons, which allows the user to listen to the correct American and British pronunciation of the word;
 
-    - It has a next alphabet button, which generates the next random alphabet with it's corresponding image and word.
+ - It has a next alphabet button, which generates the next random alphabet with it's corresponding image and word.
 
 ![Alphabet A-Z Page](documentation/alphabet-page-screenshot.png)
 
