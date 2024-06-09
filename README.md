@@ -12,44 +12,44 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 ### First Time User Goals:
 
-* As a First Time User, I want to be able to easily navigate through the app, so I can find the content.
-* As a First Time User, I want to engage in learning to build my basic knowledge.
+- As a First Time User, I want to be able to easily navigate through the app, so I can find the content.
+- As a First Time User, I want to engage in learning to build my basic knowledge.
 
 ### Returning User Goals:
 
-* As a Returning User, I want to see the various alphabets, so I can know my alphabets.
-* As a Returning User, I want to be able to access information at a go and learn with ease.
+- As a Returning User, I want to see the various alphabets, so I can know my alphabets.
+- As a Returning User, I want to be able to access information at a go and learn with ease.
 
 ### Regular User Goal:
-* As a Regular User, I want to get constant access to learning materials, so I can continue learning.
+- As a Regular User, I want to get constant access to learning materials, so I can continue learning.
 
 ## Features
 
-+ ### Menu Page
+ ### Main Page
 
-    - Menu page has the header containing the Title of the app "ADAPTED MIND".
+    - Main page has the header containing the Title of the app "ADAPTED MIND".
 
     - The header also contains a paragraph "Learning made easy!".
 
-    - Menu page also contain a button:
+    - Main page also contain a button:
 
         - Alphabet A-Z Button leads to the page where the user can learn and practice how to familiarise with alphabets and what it represent.
     
-    - Menu page also contain the Footer Icon that has a live link to My GitHub page.
+    - Main page also contain the Footer Icon that has a live link to My GitHub page.
 
-    ![Menu Page](documentation/menu-page-screenshot.png)
+![Main Page](documentation/menu-page-screenshot.png)
 
-+ ### Alphabet A-Z Page
+ ### Alphabet A-Z Page
 
-    - It has a button at the top left corner of the screen, which leads back to the menu page;
+    - It has a button at the top left corner of the screen, which takes you back to the main page;
 
     - It consist of an alphabet with it's corresponding Image representation and Image Spelling Word;
 
     - It has the sound buttons, which allows the user to listen to the correct American and British pronunciation of the word;
 
-    - It has a next alphabet button, which replaces the current alphabet and its representation with another alphabet and its representation. 
+    - It has a next alphabet button, which generates the next random alphabet with it's corresponding image and word.
 
-    ![Alphabet A-Z Page](documentation/alphabet-page-screenshot.png)
+![Alphabet A-Z Page](documentation/alphabet-page-screenshot.png)
 
 ## Technologies Used
 
