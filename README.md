@@ -43,9 +43,9 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
     - It has a button at the top left corner of the screen, which leads back to the menu page;
 
-    - It has Card, which consist of an alphabet and what it represents;
+    - It consist of an alphabet with it's corresponding Image representation and Image Spelling Word;
 
-    - Card has the key word and sound buttons, which allows the user to listen to the correct American and British pronunciation of the word;
+    - It has the sound buttons, which allows the user to listen to the correct American and British pronunciation of the word;
 
     - It has a next alphabet button, which replaces the current alphabet and its representation with another alphabet and its representation. 
 
@@ -123,6 +123,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  - The index.html file had bugs of undefined variables that doesn't exist in the index.html page in the devtool console.
 
   *Solution:* I removed the script file link added initially to the index.html page.
+
         ```<script src="assets/js/script.js"></script>```
 
  ### Unfixed Bugs
@@ -135,17 +136,17 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
   - In order to confirm the correct functionality and appearance across devices, the website was tested on the following browsers: Chrome, Firefox and Microsoft Edge.
 
-    - Chrome:
+  - Chrome:
 
   ![Main Page](documentation/menu-page-chrome.png)
   ![Alphabets page](documentation/alphabets-page-chrome.png)
 
-    - Firefox:
+  - Firefox:
 
   ![Main Page](documentation/menu-page-firefox.png)
   ![Alphabets page](documentation/alphabet-page-firefox.png)
 
-    - Edge:
+  - Edge:
 
   ![Main Page](documentation/menu-page-edge.png)
   ![Alphabets page](documentation/alphabet-page-edge.png) 
