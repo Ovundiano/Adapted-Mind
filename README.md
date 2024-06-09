@@ -137,20 +137,20 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
     - Chrome:
 
-  ![Menu Page](documentation/menu-page-chrome.png)
+  ![Main Page](documentation/menu-page-chrome.png)
   ![Alphabets page](documentation/alphabets-page-chrome.png)
 
     - Firefox:
 
-  ![Menu Page](documentation/menu-page-firefox.png)
+  ![Main Page](documentation/menu-page-firefox.png)
   ![Alphabets page](documentation/alphabet-page-firefox.png)
 
     - Edge:
 
-  ![Menu Page](documentation/menu-page-edge.png)
+  ![Main Page](documentation/menu-page-edge.png)
   ![Alphabets page](documentation/alphabet-page-edge.png) 
 
- ### Devtool Responsive Testing
+ ### Devtools Responsive Testing
 
  - In order to confirm the responsivenes of the website across devices, the website was checked with devtools implemented in Chrome, Microsoft Edge and Firefox browsers.
 
@@ -158,8 +158,8 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
   #### HTML
     - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
-      - Menu Page:
-          ![Menu Page HTML Validator](documentation/menu-page-html-validator.png)
+      - Main Page:
+          ![Main Page HTML Validator](documentation/menu-page-html-validator.png)
       - Card Page:
           ![Alphabets Page HTML Validator](documentation/alphabets-page-html-validator.png)
 
@@ -170,7 +170,19 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
   ### JS
     - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except that SpeechSynthesisUtterance and speechSynthesis are undefined.
 
-      ![JSHint Validator Testing](documentation/js-validator-testing.png)
+      ![JSHint Validator Testing](documentation/js-validator-testing.png).
+
+  ### LightHouse Report
+
+  - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+
+     - Main Page:
+
+      ![Main Page LightHouse Report](documentation/main-page-lighthouse-report.png)
+
+  - Alphabets Page:
+
+      ![Alphabets Page LightHouse Report](documentation/alphabets-page-lighthouse-report.png)
 
 ## Deployment
 
@@ -197,6 +209,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 ## Future improvements
  - Add custom 404 page;
  - Improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
+ - Subsequently, when I would like to add more game contents to include Numbers and Colors options.
 
 ## Credits  
 
