@@ -140,6 +140,13 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
   ![Menu Page](documentation/menu-page-chrome.png)
   ![Alphabets page](documentation/alphabets-page-chrome.png)
 
+    - Firefox:
+
+  ![Menu Page](documentation/menu-page-firefox.png)
+  ![Alphabets page](documentation/alphabet-page-firefox.png)
+
+  
+
 ## Deployment
 
  ### Deployment to GitHub Pages
