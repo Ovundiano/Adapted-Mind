@@ -163,6 +163,10 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
       - Card Page:
           ![Alphabets Page HTML Validator](documentation/alphabets-page-html-validator.png)
 
+  ### CSS
+    - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator.
+    ![CSS Validator Testing](documentation/css-validator-testing.png)
+
 ## Deployment
 
  ### Deployment to GitHub Pages
