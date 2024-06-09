@@ -86,8 +86,11 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
 ### Solved bugs
  -The Next Alphabet button wasn't generating the Next Random Alphabet when the Next Alphabet button was clicked on the preview window.
-        ``let randonAlphabets = Math.floor(Math.random() * alphabets.length);
-        console.log(randomAlphabets);``
+
+        ```js
+        let randonAlphabets = Math.floor(Math.random() * alphabets.length);
+        console.log(randomAlphabets);
+        ```
 
  *Solution:* I made the  Random Alphabet a function() in the script.js and it started generating the next random alphabet.
 
@@ -124,7 +127,18 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
  ### Unfixed Bugs
 
- -None.
+  - None.
+
+## Testing 
+
+ ### COMPATIBILITY:
+
+  - The app was tested on the following browsers: Chrome, Firefox and Edge:
+
+    - Chrome:
+
+  ![Menu Page](documentation/menu-page-chrome.png)
+  ![Alphabets page](documentation/alphabets-page-chrome.png)
 
 ## Deployment
 
