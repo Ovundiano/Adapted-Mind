@@ -521,7 +521,7 @@ img {
 
     .main-alphabets {
         width: 65rem;
-        padding-left: 480px;
+        padding-left: 550px;
     }
 
     .main-alphabet {
@@ -546,7 +546,7 @@ img {
         align-content: center;
         align-self: center;
         margin-bottom: 20px;
-        padding-left: 40px;
+        padding-left: 50px;
     }
 
     .image {
@@ -555,19 +555,18 @@ img {
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-top: 10px;
-        padding-right: 10px;
+        margin-top: 20px;
     }
 
     img {
-        height: 25vh;
+        height: 35vh;
     }
 
     /* Image In Word Style */
     .image-spelling-word {
         font-size: 2rem;
         letter-spacing: 1rem;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     /* Image Pronounciation Style */
@@ -576,15 +575,15 @@ img {
         padding-left: 1rem;
         align-content: center;
         justify-content: space-evenly;
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     .accents {
-        padding-left: 3rem;
+        padding-left: 4rem;
     }
 
     .accents-name {
-        padding-right: 1.0vw;
+        padding-right: 0.5vw;
         font-size: 1.5rem;
     }
 
