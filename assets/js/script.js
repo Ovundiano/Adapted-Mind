@@ -97,7 +97,6 @@ function generateAlphabet() {
     alphabetImageSpellingWord.innerText = alphabets[randomIndex].imageSpellingWord;
     console.log(alphabetImageSpellingWord.innerText);
 
-    let currentWord;
     currentWord = alphabets[randomIndex].imageSpellingWord;
     console.log(currentWord);
 }
@@ -106,7 +105,6 @@ function generateAlphabet() {
  * Add Accents Audio to Click Speaker Icon
  */
 //Indepth Knowledge of SpeechSynthesisUtterance() Function gotten from webplatformcourse(https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.)
-let currentWord;
 function speakFunction(event, lang) {
     event.stopPropagation();
     let say = new SpeechSynthesisUtterance();
