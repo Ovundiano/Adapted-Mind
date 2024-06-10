@@ -405,8 +405,8 @@ img {
     }
 }
 
-/* Larger devices (desktops, 1920px and up) */
-@media screen and (max-width: 1920px) {
+/* Larger devices (desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
 
     /* Main Page Style */
     .header {
@@ -418,7 +418,7 @@ img {
     }
 
     .main {
-        height: 65%;
+        height: 75%;
     }
 
     .main-alphabets {
@@ -427,7 +427,7 @@ img {
     }
 
     .main-alphabet {
-        width: 10rem;
+        width: 15rem;
         background-color: white;
         font-size: 2.5rem;
     }
@@ -437,7 +437,7 @@ img {
     .alphabet-main {
         width: 100%;
         max-width: 90rem;
-        height: 70vh;
+        height: 65vh;
         perspective: 50rem;
     }
 
