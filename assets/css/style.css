@@ -405,8 +405,8 @@ img {
     }
 }
 
-/* Larger devices (desktops, 1400px and up) */
-@media screen and (min-width: 1400px) {
+/* Larger devices (desktops, 1440px and up) */
+@media screen and (min-width: 1440px) {
 
     /* Main Page Style */
     .header {
@@ -418,7 +418,7 @@ img {
     }
 
     .main {
-        height: 75%;
+        height: 70%;
     }
 
     .main-alphabets {
@@ -497,6 +497,104 @@ img {
     /* Next Alphabet Button Style */
     .next-alphabet {
         padding-left: 2rem;
+        font-size: 1.5rem;
+        margin: 1rem
+    }
+
+}
+
+/* Larger devices (desktops, 1600px and up) */
+@media screen and (min-width: 1600px) {
+
+    /* Main Page Style */
+    .header {
+        align-self: center;
+    }
+
+    .header-title {
+        font-size: 3rem;
+    }
+
+    .main {
+        height: 70%;
+    }
+
+    .main-alphabets {
+        width: 65rem;
+        padding-left: 480px;
+    }
+
+    .main-alphabet {
+        width: 15rem;
+        background-color: white;
+        font-size: 2.5rem;
+    }
+
+    /* Media For Alphabets Page Style */
+    
+    .alphabet-main {
+        width: 100%;
+        max-width: 90rem;
+        height: 65vh;
+        perspective: 50rem;
+    }
+
+    .letter {
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        margin-bottom: 20px;
+        padding-left: 40px;
+    }
+
+    .image {
+        justify-self: center;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+        padding-right: 10px;
+    }
+
+    img {
+        height: 25vh;
+    }
+
+    /* Image In Word Style */
+    .image-spelling-word {
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        margin-top: 20px;
+    }
+
+    /* Image Pronounciation Style */
+    .accent {
+        display: flex;
+        padding-left: 1rem;
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+
+    .accents {
+        padding-left: 3rem;
+    }
+
+    .accents-name {
+        padding-right: 1.0vw;
+        font-size: 1.5rem;
+    }
+
+    .accents-icon {
+        font-size: 2rem;
+    }
+
+    /* Next Alphabet Button Style */
+    .next-alphabet {
+        padding-left: 1.5rem;
         font-size: 1.5rem;
         margin: 1rem
     }
