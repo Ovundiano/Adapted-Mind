@@ -418,24 +418,25 @@ img {
     }
 
     .main {
-        height: 75%;
+        height: 65%;
     }
 
     .main-alphabets {
-        width: 70rem;
-        padding-left: 300px;
+        width: 65rem;
+        padding-left: 400px;
     }
 
     .main-alphabet {
-        width: 15rem;
+        width: 10rem;
         background-color: white;
         font-size: 2.5rem;
     }
 
     /* Media For Alphabets Page Style */
+    
     .alphabet-main {
         width: 100%;
-        min-width: 90rem;
+        max-width: 90rem;
         height: 70vh;
         perspective: 50rem;
     }
@@ -446,8 +447,8 @@ img {
         justify-content: center;
         align-content: center;
         align-self: center;
-        margin-bottom: 10px;
-        padding-left: 40px;
+        margin-bottom: 20px;
+        padding-left: 30px;
     }
 
     .image {
@@ -456,36 +457,36 @@ img {
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-top: 20px;
-        padding-right: 75px;
+        margin-top: 10px;
+        padding-right: 20px;
     }
 
     img {
-        height: 35vh;
+        height: 25vh;
     }
 
     /* Image In Word Style */
     .image-spelling-word {
         font-size: 2rem;
         letter-spacing: 1rem;
-        margin-top: 60px;
+        margin-top: 20px;
     }
 
     /* Image Pronounciation Style */
     .accent {
         display: flex;
-        padding: 1rem;
+        padding-left: 0.8rem;
         align-content: center;
         justify-content: space-evenly;
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     .accents {
-        padding: 1rem;
+        padding-left: 2rem;
     }
 
     .accents-name {
-        padding-right: 4.5vw;
+        padding-right: 1.5vw;
         font-size: 1.5rem;
     }
 
@@ -495,8 +496,9 @@ img {
 
     /* Next Alphabet Button Style */
     .next-alphabet {
-        padding: 2rem;
+        padding-left: 2rem;
         font-size: 1.5rem;
-        margin: 2rem
+        margin: 1rem
     }
+
 }
