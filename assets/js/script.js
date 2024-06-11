@@ -18,17 +18,17 @@ let alphabets = jsonArray;
 document.addEventListener('DOMContentLoaded', function () {
     let nextAlphabet = document.getElementById("next-alphabet");
 
-    fetchAlphabets()
+    getAlphabets()
 
-    //Click Next Alphabet Button to Get Next Random Alphabet
+    //Click Next Alphabet Button to Produce Next Random Alphabet
     nextAlphabet.addEventListener('click', function () {
-        generateAlphabet();
+        produceAlphabet();
     });
 
-    //Click Enter Key to Get Next Random Alphabet
+    //Click Enter Key to Produce Next Random Alphabet
     nextAlphabet.addEventListener('keydown', function (event) {
         if (event.key === 'Enter') {
-            generateAlphabet();
+            produceAlphabet();
         }
     });
 
@@ -47,15 +47,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /**
- * Link To Fetch Alphabets Stored In the JSONArray
+ * Link To Get Alphabets Stored In the JSONArray
  */
-// Indepth knowledge of fetch() function gotten from geeksforgeeks(https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp)
+// Indepth Knowledge of Fetch() funtion gotten from geeksforgeeks(https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/?ref=ml_lbp)
 // Idea of JSON data storage file gotten from flash_cards(https://github.com/IuliiaKonovalova/flash_cards/blob/main/assets/js/cards.js) and indepth knowledge gotten from w3schools(https://www.w3schools.com/js/js_json.asp)
 // Indepth knowledge of Async() Function gotten from freeCodeCamp(https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/#:~:text=In%20summary%2C%20asynchronous%20programming%20is,async%2Fawait%2C%20and%20promises.)
-async function fetchAlphabets() {
-    let response = await fetch('assets/js/json/alphabets-data.json');
-    alphabets = await response.json();
-    generateAlphabet();
+async function getAlphabets() {
+    let get = await fetch('assets/js/json/alphabets-data.json');
+    alphabets = await get.json();
+    produceAlphabet()
 }
 
 /**
@@ -67,10 +67,10 @@ function randomAlphabets() {
 };
 
 /**
- * Generate Alphabet() Funtion after alphabet has been fetched from JSON file
+ * Produce Alphabet() Funtion after alphabet has been fetched from JSON file
  * with it's corresponding pictural represnetation and spelling word
  */
-function generateAlphabet() {
+function produceAlphabet() {
     let alphabetLetter = document.getElementsByClassName('letter')[0];
     let alphabetImg = document.getElementsByClassName('image')[0];
     let alphabetImageSpellingWord = document.getElementsByClassName('image-spelling-word')[0];
@@ -78,7 +78,7 @@ function generateAlphabet() {
     let randomAlphabet = randomAlphabets();
     alphabetLetter.innerText = alphabets[randomAlphabet].letter;
     alphabetImg.innerHTML = `<img src = ${alphabets[randomAlphabet].img}>`;
-    alphabetImageSpellingWord.innerText = alphabets[randomAlphabet].imageSpellingWord; 
+    alphabetImageSpellingWord.innerText = alphabets[randomAlphabet].imageSpellingWord;
 
     alphabetWord = alphabets[randomAlphabet].imageSpellingWord;
 }
@@ -87,11 +87,12 @@ function generateAlphabet() {
  * Listen to Audio when Speaker Icons are click
  */
 //Indepth Knowledge of SpeechSynthesisUtterance() Function gotten from webplatformcourse(https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.)
+// stopPropagation() Function knowledge gotten from mdn web docs(https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation)
 function speakFunction(event, lang) {
     event.stopPropagation();
     let say = new SpeechSynthesisUtterance();
     say.lang = `en-${lang}`;
-    say.text = alphabetWord.replace('/', 'or');
+    say.text = alphabetWord;
     say.pitch = 0.5;
     speechSynthesis.speak(say);
 }

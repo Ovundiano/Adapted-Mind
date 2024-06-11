@@ -85,14 +85,14 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 ## Bugs 
 
 ### Solved bugs
- -The Next Alphabet button wasn't generating the Next Random Alphabet when the Next Alphabet button was clicked on the preview window.
+ -The Next Alphabet button wasn't producing the Next Random Alphabet when the Next Alphabet button was clicked on the preview window.
 
         ```js
-        let randonAlphabets = Math.floor(Math.random() * alphabets.length);
+        let randomAlphabets = Math.floor(Math.random() * alphabets.length);
         console.log(randomAlphabets);
         ```
 
- *Solution:* I made the  Random Alphabet a function() in the script.js and it started generating the next random alphabet.
+ *Solution:* I made the  Random Alphabet a function() in the script.js and it started producing the next random alphabet.
 
         ```js
         function randomAlphabets() {
@@ -100,23 +100,23 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
         };
         ```
 
- - The preview window wasn't generating Alphabet with it's corresponding Image and ImageSpellingWord when loaded.
+ - The preview window wasn't displaying Alphabet with it's corresponding Image and ImageSpellingWord when loaded.
 
         ```js
-        async function fetchAlphabetsData() {
-            let response = await fetch('assets/js/json/alphabets-data.json');
-            alphabets = await response.json();
+        async function getAlphabets() {
+            let get = await fetch('assets/js/json/alphabets-data.json');
+            alphabets = await get.json();
             console.log(alphabets);
         }
         ```
 
- *Solution:* I added generateAlphabet() function instead of console.log() function to the fetchAlphabetsData() of the JSON file.
+ *Solution:* I added produceAlphabet() function instead of console.log() function to the getAlphabets() of the JSON file.
 
         ```js
-        async function fetchAlphabetsData() {
-            let response = await fetch('assets/js/json/alphabets-data.json');
-            alphabets = await response.json();
-            generateAlphabet();
+        async function getAlphabets() {
+            let get = await fetch('assets/js/json/alphabets-data.json');
+            alphabets = await get.json();
+            produceAlphabet();
         }
         ```
 
@@ -296,3 +296,5 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
   - [freeCodeCamp](https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/#:~:text=In%20summary%2C%20asynchronous%20programming%20is,async%2Fawait%2C%20and%20promises.) for the indepth knowledge of Async() Function.
 
   - [webplatformcourse](https://webplatformcourse.com/bonus/speech-synthesis-api/#:~:text=The%20SpeechSynthesisUtterance%20object%20available%20on,the%20browser%20should%20read%20aloud.) for the indepth knowledge of SpeechSynthesisUtterance() Function.
+
+  - [mdnwebdocs](https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation) for knowledge of StopPropagation() Function.
