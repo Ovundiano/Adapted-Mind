@@ -95,7 +95,7 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
  *Solution:* I made the  Random Alphabet a function() in the script.js and it started generating the next random alphabet.
 
         ```js
-        let randomAlphabets = function () {
+        function randomAlphabets() {
             return Math.floor(Math.random() * alphabets.length);
         };
         ```
