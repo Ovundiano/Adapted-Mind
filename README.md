@@ -281,7 +281,9 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
 
   - [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great mentor and thanks for pushing me out of my comfort zone.
 
-  - [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor) tutors for their support and help.
+  - [Code Institute Tutor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor) for their support and help.
+
+  - [Love Math CI](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/tutor).
 
   - [Quora](https://www.quora.com/What-is-the-best-way-to-generate-an-array-of-JSON-objects-dynamically-in-JavaScript#:~:text=There%20are%20several%20ways%20to,jsonArray.) for the Indepth Knowledge on how to write the code to generate array of JSON objects in JavaScript.
 
