@@ -174,6 +174,8 @@ The site can be accessed by this [link](https://ovundiano.github.io/Adapted-Mind
   ### JS
  - No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except that SpeechSynthesisUtterance and speechSynthesis are undefined.
 
+ - NOTE: SpeechSynthesisUtterance and speechSynthesis are undefined but are working effectively in the website.
+
   ![JSHint Validator Testing](documentation/js-validator-testing.png)
 
   ### LightHouse Report
