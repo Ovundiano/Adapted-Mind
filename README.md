@@ -1,4 +1,4 @@
-![Adapted Mind Logo](documentation/adapted-mind-logo.png)
+![Adapted Mind Logo(favicon)](documentation/adapted-mind-logo.png)
 
 # *ADAPTED MIND*
 
